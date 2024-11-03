@@ -340,5 +340,3 @@ class Skill:
             and self.desc == other.desc
             and self.note == other.note
         )
-
-parse(Skill, open('demo_rus/Skills.txt', 'r', encoding='utf-8').readlines())
