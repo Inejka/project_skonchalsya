@@ -35,10 +35,6 @@ def move_translation_files():
         "States": State,
         "Weapons": Weapon,
         "Skills": Skill}
-
-    patched_folder = "jap_3_1_patched"
-    shutil.rmtree(patched_folder, ignore_errors=True)
-    shutil.copytree(FOLDER_TO_PATCH, patched_folder, dirs_exist_ok=True)
     os.makedirs(TRANSLATION_FOLDER, exist_ok=True)
 
     # create patchfiles for translation
@@ -125,5 +121,6 @@ def move_translation_system_files():
         print(f"System.txt NOT COPIED, CHECK SIMULARITY: {simularity_score} AND TRANSLATE IT MANUALLY, SYSTEM WILL NOT BE COMPILED")
 
 if __name__ == "__main__":
+    # move_translation_files()
     move_translation_system_files()
     
