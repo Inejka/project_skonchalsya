@@ -1,8 +1,10 @@
+from copy import deepcopy
 import difflib
 import itertools
 import os
 from game_types import Actor, Armor, Class, Enemy, Item, State, Weapon, Skill, str_repr
 import shutil
+from pathlib import Path
 
 SOURCE_FOLDER_JAP = "demo_jap"
 SOURCE_FOLDER_TRANSLATION = "demo_rus"
@@ -87,28 +89,28 @@ def move_translation_files():
     # TODO: compile patched files
 
 def move_translation_system_files():
-    system_folder = "System"
+    SYSTEM_FOLDER = "System"
     file_list = ["Armor Types.txt", "Elements.txt", "Skill Types.txt", "Terms.txt", "Weapon Types.txt"]
-    os.makedirs(f"{TRANSLATION_FOLDER}/{system_folder}", exist_ok=True)
+    os.makedirs(f"{TRANSLATION_FOLDER}/{SYSTEM_FOLDER}", exist_ok=True)
 
     for filename in file_list:
         old_text = ""
         new_text = ""
         
-        with open(f'{SOURCE_FOLDER_JAP}/{system_folder}/{filename}', 'r', encoding='utf-8') as old_file:
+        with open(f'{SOURCE_FOLDER_JAP}/{SYSTEM_FOLDER}/{filename}', 'r', encoding='utf-8') as old_file:
             old_text = old_file.read()
-        with open(f'{FOLDER_TO_PATCH}/{system_folder}/{filename}', 'r', encoding='utf-8') as new_file:
+        with open(f'{FOLDER_TO_PATCH}/{SYSTEM_FOLDER}/{filename}', 'r', encoding='utf-8') as new_file:
             new_text = new_file.read()
 
         simularity_score = difflib.SequenceMatcher(None, old_text, new_text).ratio()
         print(f"{filename}: {simularity_score}")
         if simularity_score == 1.0:
-            shutil.copyfile(f'{SOURCE_FOLDER_TRANSLATION}/{system_folder}/{filename}', f'{TRANSLATION_FOLDER}/{system_folder}/{filename}')
+            shutil.copyfile(f'{SOURCE_FOLDER_TRANSLATION}/{SYSTEM_FOLDER}/{filename}', f'{TRANSLATION_FOLDER}/{SYSTEM_FOLDER}/{filename}')
         else:
             print(f"{filename} NOT COPIED, CHECK SIMULARITY: {simularity_score} AND TRANSLATE IT MANUALLY, SYSTEM WILL NOT BE COMPILED")
 
-    shutil.copyfile(f'{FOLDER_TO_PATCH}/{system_folder}/Switches.txt', f'{TRANSLATION_FOLDER}/{system_folder}/Switches.txt')
-    shutil.copyfile(f'{FOLDER_TO_PATCH}/{system_folder}/Variables.txt', f'{TRANSLATION_FOLDER}/{system_folder}/Variables.txt')
+    shutil.copyfile(f'{FOLDER_TO_PATCH}/{SYSTEM_FOLDER}/Switches.txt', f'{TRANSLATION_FOLDER}/{SYSTEM_FOLDER}/Switches.txt')
+    shutil.copyfile(f'{FOLDER_TO_PATCH}/{SYSTEM_FOLDER}/Variables.txt', f'{TRANSLATION_FOLDER}/{SYSTEM_FOLDER}/Variables.txt')
     with open(f'{SOURCE_FOLDER_JAP}/System.txt', 'r', encoding='utf-8') as old_file:
         old_text = old_file.read()
     with open(f'{FOLDER_TO_PATCH}/System.txt', 'r', encoding='utf-8') as new_file:
@@ -120,7 +122,9 @@ def move_translation_system_files():
     else:
         print(f"System.txt NOT COPIED, CHECK SIMULARITY: {simularity_score} AND TRANSLATE IT MANUALLY, SYSTEM WILL NOT BE COMPILED")
 
+
+
 if __name__ == "__main__":
-    # move_translation_files()
+    move_translation_files()
     move_translation_system_files()
-    
+    # move_translation_files_maps()
