@@ -3,3 +3,8 @@ demo_rus
 jap_3_0
 jap_*
 translation_files
+translation_files_packed
+__pycache__
+.venv
+Scripts_rus_demo
+Scripts_301_jap

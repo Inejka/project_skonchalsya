@@ -12,6 +12,13 @@ SOURCE_FOLDER_TRANSLATION = "demo_rus"
 FOLDER_TO_PATCH = "jap_3_01"
 TRANSLATION_FOLDER = "translation_files"
 MAPS_FOLDER = "Maps"   
+useful_words = ["ShowText(", "Display Name", "ShowChoices", "display_skill_name", "ScriptMore", "unlimited_choices", "ex_choice_add", "When"]
+
+def keep_line(line):
+    for word in useful_words:
+        if word in line:
+            return True
+    return False
 
 def check_percentage(old_items, new_items):
     found = 0       
@@ -124,26 +131,13 @@ def move_translation_system_files():
     else:
         print(f"System.txt NOT COPIED, CHECK SIMULARITY: {simularity_score} AND TRANSLATE IT MANUALLY, SYSTEM WILL NOT BE COMPILED")
 
-def move_translation_files_maps():
-    useful_words = ["ShowText(", "Display Name", "ShowChoices", "display_skill_name", "ScriptMore", "unlimited_choices", "ex_choice_add", "When"]
+def is_end_of_chunk(text, inx, context_length):
+    for i in range(inx, min(len(text), inx + context_length + 1)):
+        if keep_line(text[i]):
+            return False
+    return True
 
-    def keep_line(line):
-        for word in useful_words:
-            if word in line:
-                return True
-        return False
-    
-    vocabulary = {}
-    simple_vocabulary = {}
-
-    def is_end_of_chunk(text, inx, context_length):
-        for i in range(inx, min(len(text), inx + context_length + 1)):
-            if keep_line(text[i]):
-                return False
-        return True
-
-
-    def break_text_into_chunks(text, context_length=3):
+def break_text_into_chunks(text, context_length=3):
         chunks = []
         text = text.split("\n")
         i = 0
@@ -158,8 +152,8 @@ def move_translation_files_maps():
             else:
                 i += 1
         return chunks
-            
-    def break_chunk(text):
+
+def break_chunk(text):
         text = text.split("\n")
         first = 0
         last = 0
@@ -173,6 +167,11 @@ def move_translation_files_maps():
             else:
                 last += 1
         yield "\n".join(text[first:last])
+
+
+def create_vocabulary():
+    vocabulary = {}
+    simple_vocabulary = {}
 
     def process_chunks(chunks, translated_text):
         context_was_not_founded = False
@@ -226,7 +225,11 @@ def move_translation_files_maps():
             for jap, rus in zip(jap_simple_chunks, rus_simple_chunks):
                 simple_vocabulary[jap] = rus
 
+    return (vocabulary, simple_vocabulary)
 
+def patch_maps():
+
+    vocabulary, simple_vocabulary = create_vocabulary()
     print(f"Len of simple vocabulary {len(simple_vocabulary)}")
     print(f"Len of complicated vocabulary {len(vocabulary)}")
  
@@ -267,6 +270,6 @@ def move_translation_files_maps():
 
 
 if __name__ == "__main__":
-    # move_translation_files()
-    # move_translation_system_files()
-    move_translation_files_maps()
+    move_translation_files()
+    move_translation_system_files()
+    patch_maps()
