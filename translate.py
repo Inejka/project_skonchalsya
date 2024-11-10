@@ -252,8 +252,6 @@ def patch_maps():
             for piece in break_chunk(chunk[1]):
                 if piece in simple_vocabulary:
                     text = text.replace(piece, simple_vocabulary[piece])
-                elif piece in vocabulary:
-                    text = text.replace(piece, vocabulary[piece])
                 else:
                     succesfully_patched = False
 
