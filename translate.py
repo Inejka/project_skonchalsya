@@ -1,18 +1,27 @@
 from copy import deepcopy
 import difflib
 import itertools
+import logging
 import os
+import re
+from typing import Iterator
 from game_types import Actor, Armor, Class, Enemy, Item, State, Weapon, Skill, str_repr
 import shutil
 from pathlib import Path
 
-MAPS_ATTENSION = "translate_me_maps"
+MAPS_ATTENTION = "translate_me_maps"
+EVENTS_ATTENTION = "translate_me_events"
 SOURCE_FOLDER_JAP = "demo_jap"
 SOURCE_FOLDER_TRANSLATION = "demo_rus"
 FOLDER_TO_PATCH = "jap_3_01"
 TRANSLATION_FOLDER = "translation_files"
 MAPS_FOLDER = "Maps"   
+EVENTS_FOLDER = "CommonEvents"
 useful_words = ["ShowText(", "Display Name", "ShowChoices", "display_skill_name", "ScriptMore", "unlimited_choices", "ex_choice_add", "When"]
+
+japanese_pattern = re.compile(r'[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]')
+total_missed = 0
+logging.basicConfig(filename='translation.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def keep_line(line):
     for word in useful_words:
@@ -131,143 +140,126 @@ def move_translation_system_files():
     else:
         print(f"System.txt NOT COPIED, CHECK SIMULARITY: {simularity_score} AND TRANSLATE IT MANUALLY, SYSTEM WILL NOT BE COMPILED")
 
-def is_end_of_chunk(text, inx, context_length):
-    for i in range(inx, min(len(text), inx + context_length + 1)):
-        if keep_line(text[i]):
-            return False
-    return True
+def reduce_text_to_commands(text: str) -> list[str]:
+    return list(map(lambda line: list(filter(lambda word: word in line, useful_words))[0], text.split("\n")))
 
-def break_text_into_chunks(text, context_length=3):
-        chunks = []
-        text = text.split("\n")
-        i = 0
-        while i < len(text):
-            if keep_line(text[i]):
-                start_of_chunk = i
-                j = i + 1
-                while not is_end_of_chunk(text, j, context_length):
-                    j += 1
-                chunks.append(("\n".join(text[i-context_length:start_of_chunk]), "\n".join(text[start_of_chunk:j]), "\n".join(text[j:j+context_length])))
-                i = j
+def clear_commands_list(commands: list[str]) -> list[str]:
+    to_return = [commands[0]]
+    for i in range(1, len(commands)):
+        if commands[i] != commands[i-1]:
+            to_return.append(commands[i])
+    return to_return
+
+def validate_pairs(original_text, translated_text):
+    original = reduce_text_to_commands(original_text)
+    translated = reduce_text_to_commands(translated_text)
+    return clear_commands_list(original) == clear_commands_list(translated) 
+
+def iterate_folder_pair(source_folder_root: str, translation_folder_root:str, folder_name: str) -> Iterator[tuple[str, str, str, str]]:
+    for item in Path(f"{source_folder_root}/{folder_name}").glob("**/*.txt"):
+            source_text = item.read_text(encoding="utf-8")
+            translation_text = Path(str(item).replace(source_folder_root, translation_folder_root)).read_text(encoding="utf-8")
+            yield source_text, translation_text, str(item), str(Path(str(item).replace(source_folder_root, translation_folder_root)))
+
+def break_text_into_chunks(text: str) -> Iterator[str]:
+    text = text.split("\n")
+    first = 0
+    last = 0
+    while last < len(text):
+        while first < len(text) and not keep_line(text[first]):
+            first += 1
+        last = first + 1
+        while last < len(text) and keep_line(text[last]):
+            last += 1
+        if first != len(text):
+            yield "\n".join(text[first:last])
+        first = last
+
+
+def generate_vocabulary_from_text_pair(text_original: str, text_translated: str, original_file:str = None, translated_file:str = None) -> dict[str, str]:
+    vocabulary = {}    
+    s = difflib.SequenceMatcher(None, text_original, text_translated)
+    for tag, i1, i2, j1, j2 in s.get_opcodes():
+        if tag == "equal":
+             continue
+        if tag == "replace":
+            original_chunks = [x for x in break_text_into_chunks("\n".join(text_original[i1:i2]))]
+            translated_chunks = [x for x in break_text_into_chunks("\n".join(text_translated[j1:j2]))]
+            if len(original_chunks) != len(translated_chunks):
+                global total_missed
+                total_missed += 1
+                logging.warning('{}   ->   {}    {:7}   a[{}:{}] --> b[{}:{}] {!r:>8} --> {!r}'.format(original_file, translated_file,tag, i1, i2, j1, j2, text_original[i1:i2], text_translated[j1:j2]))
             else:
-                i += 1
-        return chunks
+                for original_chunk, translated_chunk in zip(original_chunks, translated_chunks):
+                    if not validate_pairs(original_chunk, translated_chunk):
+                        print("Validation of vocabulary failed, please ping author")
+                    else:
+                        vocabulary[original_chunk] = translated_chunk
 
-def break_chunk(text):
-        text = text.split("\n")
-        first = 0
-        last = 0
-        while last < len(text):
-            if not keep_line(text[last]):
-                yield "\n".join(text[first:last])
-                while last < len(text) and not keep_line(text[last]):
-                    last += 1
-                first = last
-                last += 1
-            else:
-                last += 1
-        yield "\n".join(text[first:last])
+        else:
+            logging.warning('{}   ->   {}    {:7}   a[{}:{}] --> b[{}:{}] {!r:>8} --> {!r}'.format(original_file, translated_file,tag, i1, i2, j1, j2, text_original[i1:i2], text_translated[j1:j2]))
+    return vocabulary
 
-
-def create_vocabulary():
+def generate_maps_vocabulary():
     vocabulary = {}
-    simple_vocabulary = {}
+    for source_text, translation_text, original_file, translated_file in iterate_folder_pair(SOURCE_FOLDER_JAP, SOURCE_FOLDER_TRANSLATION, MAPS_FOLDER):
+        vocabulary.update(generate_vocabulary_from_text_pair(source_text.split("\n"), translation_text.split("\n"), original_file, translated_file))
+    print(f"map vocabulary size: {len(vocabulary)}")
+    return vocabulary
 
-    def process_chunks(chunks, translated_text):
-        context_was_not_founded = False
-        last_context_position = 0
+def generate_events_vocabulary():
+    vocabulary = {}
+    for source_text, translation_text, original_file, translated_file in iterate_folder_pair(SOURCE_FOLDER_JAP, SOURCE_FOLDER_TRANSLATION, EVENTS_FOLDER):
+        vocabulary.update(generate_vocabulary_from_text_pair(source_text.split("\n"), translation_text.split("\n"), original_file, translated_file))
+    print(f"common events vocabulary size: {len(vocabulary)}")
+    return vocabulary
+
+def patch_pair(vocabulary: dict[str, str], folder_to_patch: str, translation_folder_root: str, folder_name: str, attention_folder: str):
+    full_patched_items = 0
+    total_items = 0
+    for item in Path(f"{folder_to_patch}/{folder_name}").glob('**/*.txt'):
+        text = item.read_text(encoding='utf-8')
+        chunks = break_text_into_chunks(text)
+        total_items += 1
+        japanese_was = japanese_pattern.search(text)
         for chunk in chunks:
-            start_position = translated_text.find(chunk[0], last_context_position)
-            if start_position != -1:
-                start_position += len(chunk[0])
-            end_position = translated_text.find(chunk[2], start_position)           
-            if start_position != -1 and end_position != -1:
-                for source, target in zip(break_chunk(chunk[1]), break_chunk(translated_text[start_position+1: end_position-1])):
-                    vocabulary[source] = target
-            else:
-                context_was_not_founded = True
+            if chunk in vocabulary:
+                text = text.replace(chunk, vocabulary[chunk])
+        
+        succesfully_patched = japanese_pattern.search(text) is None
 
-            last_context_position = start_position
-        return context_was_not_founded
+        if succesfully_patched:
+            with open(str(item).replace(folder_to_patch, translation_folder_root), 'w', encoding="utf-8") as transition_file:
+                transition_file.write(text)
+            if japanese_was:
+                full_patched_items += 1
+        else:
+            with open(str(item).replace(folder_to_patch, translation_folder_root).replace(folder_name,attention_folder), 'w', encoding="utf-8") as transition_file:
+                transition_file.write(text)
 
-    def create_simple_shunks(text):
-        chunks = []
-        lines = text.split("\n")
-        start_position = 0
-        end_position = 0
-        i = 0
-        while i < len(lines):
-            if keep_line(lines[i]):
-                start_position = i
-                end_position = i + 1
-                while end_position < len(lines) and keep_line(lines[end_position]):
-                    end_position += 1
-                chunks.append("\n".join(lines[start_position:end_position]))
-                i = end_position + 1
-            else:
-                i += 1
-        return chunks
-            
+    print(f"items fully patched {full_patched_items} / {total_items}")
 
-    for item in Path(f"{SOURCE_FOLDER_JAP}/{MAPS_FOLDER}").glob('**/*.txt'):
-        source_text = ""
-        translated_text = ""
-        with open(item, 'r', encoding='utf-8') as source_file:
-            source_text = source_file.read()
-        with open(str(item).replace(SOURCE_FOLDER_JAP, SOURCE_FOLDER_TRANSLATION), 'r', encoding='utf-8') as translate_file:
-            translated_text = translate_file.read()
-        chunks = break_text_into_chunks(source_text)
-        process_chunks(chunks, translated_text)
 
-        jap_simple_chunks = create_simple_shunks(source_text)
-        rus_simple_chunks = create_simple_shunks(translated_text)
-        if len(jap_simple_chunks) == len(rus_simple_chunks):
-            for jap, rus in zip(jap_simple_chunks, rus_simple_chunks):
-                simple_vocabulary[jap] = rus
-
-    return (vocabulary, simple_vocabulary)
 
 def patch_maps():
-
-    vocabulary, simple_vocabulary = create_vocabulary()
-    print(f"Len of simple vocabulary {len(simple_vocabulary)}")
-    print(f"Len of complicated vocabulary {len(vocabulary)}")
+    maps_vocabulary = generate_maps_vocabulary()
  
     os.makedirs(f"{TRANSLATION_FOLDER}/{MAPS_FOLDER}/Map/Data", exist_ok=True)
     os.makedirs(f"{TRANSLATION_FOLDER}/{MAPS_FOLDER}/Map2/Data", exist_ok=True)
-    os.makedirs(f"{TRANSLATION_FOLDER}/{MAPS_ATTENSION}/Map/Data", exist_ok=True)
-    os.makedirs(f"{TRANSLATION_FOLDER}/{MAPS_ATTENSION}/Map2/Data", exist_ok=True)
+    os.makedirs(f"{TRANSLATION_FOLDER}/{MAPS_ATTENTION}/Map/Data", exist_ok=True)
+    os.makedirs(f"{TRANSLATION_FOLDER}/{MAPS_ATTENTION}/Map2/Data", exist_ok=True)
+    print("patching maps")
+    patch_pair(maps_vocabulary, FOLDER_TO_PATCH, TRANSLATION_FOLDER, MAPS_FOLDER, MAPS_ATTENTION)
 
-
-    full_patched_maps = 0
-    total_maps = 0
-    with open("nigger.txt", 'w', encoding='utf-8') as file:
-        file.write(str(vocabulary))
-    for item in Path(f"{FOLDER_TO_PATCH}/{MAPS_FOLDER}").glob('**/*.txt'):
-        succesfully_patched = True
-        text = item.read_text(encoding='utf-8')
-        chunks = break_text_into_chunks(text)
-        total_maps += 1
-        for chunk in chunks:
-            for piece in break_chunk(chunk[1]):
-                if piece in simple_vocabulary:
-                    text = text.replace(piece, simple_vocabulary[piece])
-                else:
-                    succesfully_patched = False
-
-        if succesfully_patched:
-            with open(str(item).replace(FOLDER_TO_PATCH, TRANSLATION_FOLDER), 'w', encoding="utf-8") as transition_file:
-                transition_file.write(text)
-            full_patched_maps += 1
-        else:
-            with open(str(item).replace(FOLDER_TO_PATCH, TRANSLATION_FOLDER).replace(MAPS_FOLDER,MAPS_ATTENSION), 'w', encoding="utf-8") as transition_file:
-                transition_file.write(text)
-
-    print(f"Maps fully patched {full_patched_maps} / {total_maps}")
-
-
+def patch_common_events():
+    events_vocabulary = generate_events_vocabulary()
+    os.makedirs(f"{TRANSLATION_FOLDER}/{EVENTS_FOLDER}", exist_ok=True)
+    os.makedirs(f"{TRANSLATION_FOLDER}/{EVENTS_ATTENTION}", exist_ok=True)
+    print("patching common events")
+    patch_pair(events_vocabulary, FOLDER_TO_PATCH, TRANSLATION_FOLDER, EVENTS_FOLDER, EVENTS_ATTENTION)
 
 if __name__ == "__main__":
-    move_translation_files()
-    move_translation_system_files()
-    patch_maps()
+    # move_translation_files()
+    # move_translation_system_files()
+    # patch_maps()
+    patch_common_events()
