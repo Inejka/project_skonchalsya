@@ -1,0 +1,7 @@
+streamlit
+langchain
+sentence-transformers
+langchain-community
+sqlite-vss
+rank_bm25
+translators

@@ -6,5 +6,8 @@ translation_files
 translation_files_packed
 __pycache__
 .venv
+.venv-pinus
 Scripts_rus_demo
 Scripts_301_jap
+vss copy.db
+vss.db

@@ -12,6 +12,7 @@ from translate import (
 import streamlit as st
 import numpy as np
 import pandas as pd
+import translators as ts
 
 from langchain_community.embeddings.sentence_transformer import (
     SentenceTransformerEmbeddings,
@@ -21,12 +22,6 @@ from langchain_community.retrievers import BM25Retriever
 from langchain_core.documents import Document
 from langchain.retrievers import EnsembleRetriever
 
-st.set_page_config(layout="wide")
-
-
-embedding_function = SentenceTransformerEmbeddings(
-    model_name="intfloat/multilingual-e5-large"
-)
 
 def keep_line(line):
     if "ShowText(" in line:
@@ -102,7 +97,6 @@ class DialogueChunk:
 class Dialogue:
     text_chunks: list[DialogueChunk]
     source_file: Path
-    # childs: list["Dialogue"]
 
 
 class EventDocument:
@@ -198,17 +192,29 @@ def check_useful_words_percentage():
     for word in freq_map:
         print(f"{word}: {freq_map[word]/total}")
 
+
+st.set_page_config(layout="wide")
+
+
+@st.cache_resource
+def get_embedding_function():
+    return SentenceTransformerEmbeddings(model_name="intfloat/multilingual-e5-large")
+
+
+embedding_function = get_embedding_function()
+
 @st.cache_resource()
-def embed():
-    vectorstore = SQLiteVSS(
-        embedding=embedding_function,
-        table="skonchalsya",
-        db_file="./vss.db",
-        connection=None
-    )
-    docs = []
+def get_maps_as_event_documents():
+    documents = []
     for doc in Path(f"{SOURCE_FOLDER_JAP}/{MAPS_FOLDER}").glob("**/*.txt"):
         doc = EventDocument(doc)
+        documents.append(doc)
+    return documents
+
+@st.cache_resource()
+def get_maps_as_lagchain_documents():
+    docs = []
+    for doc in get_maps_as_event_documents():
         for dialogue in doc.dialogues:
             for chunk in dialogue.text_chunks:
                 docs.append(
@@ -222,24 +228,62 @@ def embed():
                         id=f"{doc.filename}-{chunk.start_line}-{chunk.end_line}",
                     )
                 )
-    bm25 = BM25Retriever.from_documents(docs)
-    vectorstore.from_documents(docs, embedding=embedding_function)
-    st.session_state["bm25"] = bm25
+    return docs
 
-def search_docs():
+@st.cache_resource()
+def calculate_bm25_retriever():
+    return BM25Retriever.from_documents(get_maps_as_lagchain_documents())
+
+st.session_state["bm25"] = calculate_bm25_retriever()
+
+@st.cache_resource()
+def embed():
     vectorstore = SQLiteVSS(
         embedding=embedding_function,
         table="skonchalsya",
         db_file="./vss.db",
-        connection=None
+        connection=None,
     )
+    docs = get_maps_as_lagchain_documents()
+    calculate_bm25_retriever()
+    vectorstore.from_documents(docs, embedding=embedding_function)
+
+
+def get_async_vectorstore(db_file: str) -> sqlite3.Connection:
+    import sqlite_vss
+
+    connection = sqlite3.connect(db_file, check_same_thread=False)
+    connection.row_factory = sqlite3.Row
+    connection.enable_load_extension(True)
+    sqlite_vss.load(connection)
+    connection.enable_load_extension(False)
+    return SQLiteVSS(
+    embedding=embedding_function,
+    table="skonchalsya",
+    connection=connection,
+)
+
+
+vectorstore = get_async_vectorstore("./vss.db")
+
+
+def search_docs():
     ensemble_retriever = EnsembleRetriever(
-    retrievers=[st.session_state["bm25"], vectorstore.as_retriever(search_kwargs={"k": 10})], 
-    weights=[0.3, 0.7])
+        retrievers=[vectorstore.as_retriever(search_kwargs={"k": 10})], 
+    weights=[1])
     relevant_docs = ensemble_retriever.invoke(query)
-    st.write(relevant_docs)
+    to_display = []
+    translated_quary = ts.translate_text(query, from_language="ja", to_language="ru")
+    to_display.append(translated_quary)
+    for doc in relevant_docs:
+        translated_doc = ts.translate_text(doc.page_content, from_language="ja", to_language="ru")
+        to_display.append(doc.page_content)
+        to_display.append(translated_doc)
+    st.write(to_display)
+
 
 st.button("Embed", on_click=embed)
+st.button("Calculate BM25", on_click=calculate_bm25_retriever)
 
 
 query = st.text_input("Query")
@@ -247,6 +291,6 @@ query = st.text_input("Query")
 
 st.button("Search", on_click=search_docs)
 
-if __name__ == "__main__":
-    # check_useful_words_percentage()
-    translate_chunks()
+# if __name__ == "__main__":
+#     # check_useful_words_percentage()
+#     translate_chunks()
