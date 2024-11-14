@@ -142,6 +142,15 @@ class EventDocument:
                     self.dialogues.append(Dialogue([], self.filename))
                 i += 1
 
+@dataclass
+class RawTextPointer:
+    event_document: EventDocument
+    dialogue: Dialogue
+    chunk: DialogueChunk
+    event_document_index: int
+    dialogue_index: int
+    chunk_index: int
+    
 
 def main():
     i = 0
@@ -157,6 +166,9 @@ def main():
             lenmax = max(lenmax, summm)
     print(lenmax)
 
+@st.cache_resource
+def get_maps_vocabulary():
+    return generate_maps_vocabulary()
 
 def translate_chunks():
     vocabulary = {}
@@ -204,17 +216,28 @@ def get_embedding_function():
 embedding_function = get_embedding_function()
 
 @st.cache_resource()
-def get_maps_as_event_documents():
+def get_maps_as_event_documents() -> tuple[list[EventDocument], dict[str, RawTextPointer]]:
+    raw_chunk_to_position = {}
     documents = []
+    vocabulary = get_maps_vocabulary()
     for doc in Path(f"{SOURCE_FOLDER_JAP}/{MAPS_FOLDER}").glob("**/*.txt"):
-        doc = EventDocument(doc)
-        documents.append(doc)
-    return documents
+        document = EventDocument(doc)
+        documents.append(document)
+        for i in range(len(document.dialogues)):
+            for j in range(len(document.dialogues[i].text_chunks)):
+                if vocabulary.get(document.dialogues[i].text_chunks[j].raw_text):
+                    document.dialogues[i].text_chunks[j].set_translation(
+                        vocabulary[document.dialogues[i].text_chunks[j].raw_text]
+                    )
+                raw_chunk_to_position["\n".join(document.dialogues[i].text_chunks[j].cleared_text)] = RawTextPointer(
+                    document, document.dialogues[i], document.dialogues[i].text_chunks[j], len(documents)-1, i, j)
+    return documents, raw_chunk_to_position
 
 @st.cache_resource()
 def get_maps_as_lagchain_documents():
-    docs = []
-    for doc in get_maps_as_event_documents():
+    docs = [] 
+    maps_as_event_documents, _ = get_maps_as_event_documents()
+    for doc in maps_as_event_documents:
         for dialogue in doc.dialogues:
             for chunk in dialogue.text_chunks:
                 docs.append(
@@ -275,22 +298,17 @@ def search_docs():
     to_display = []
     translated_quary = ts.translate_text(query, from_language="ja", to_language="ru")
     to_display.append(translated_quary)
+    _, index = get_maps_as_event_documents()
     for doc in relevant_docs:
         translated_doc = ts.translate_text(doc.page_content, from_language="ja", to_language="ru")
         to_display.append(doc.page_content)
+        if index.get(doc.page_content):
+            to_display.append(index[doc.page_content].dialogue)
         to_display.append(translated_doc)
     st.write(to_display)
 
 
 st.button("Embed", on_click=embed)
 st.button("Calculate BM25", on_click=calculate_bm25_retriever)
-
-
 query = st.text_input("Query")
-
-
 st.button("Search", on_click=search_docs)
-
-# if __name__ == "__main__":
-#     # check_useful_words_percentage()
-#     translate_chunks()
