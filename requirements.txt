@@ -5,3 +5,4 @@ langchain-community
 sqlite-vss
 rank_bm25
 translators
+openai

@@ -259,7 +259,7 @@ def patch_common_events():
     patch_pair(events_vocabulary, FOLDER_TO_PATCH, TRANSLATION_FOLDER, EVENTS_FOLDER, EVENTS_ATTENTION)
 
 if __name__ == "__main__":
-    # move_translation_files()
-    # move_translation_system_files()
-    # patch_maps()
+    move_translation_files()
+    move_translation_system_files()
+    patch_maps()
     patch_common_events()

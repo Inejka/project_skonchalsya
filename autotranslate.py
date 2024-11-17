@@ -21,6 +21,11 @@ from langchain_community.vectorstores import SQLiteVSS
 from langchain_community.retrievers import BM25Retriever
 from langchain_core.documents import Document
 from langchain.retrievers import EnsembleRetriever
+import openai
+
+openai.api_key = "qq"
+openai.api_base = "http://127.0.0.1:5000/v1"
+openai.api_version = "2023-05-15"
 
 
 def keep_line(line):
@@ -98,6 +103,28 @@ class Dialogue:
     text_chunks: list[DialogueChunk]
     source_file: Path
 
+    def get_cleared_dialogue(self) -> list[tuple[str, str]]:
+        to_return = []
+        for chunk in self.text_chunks:
+            to_return.append(
+                ("\n".join(chunk.cleared_text), "\n".join(chunk.translated_text))
+            )
+        return to_return
+
+    def get_part_of_dialogue(
+        self, chunk_position: int, radius: int = 5
+    ) -> list[tuple[str, str]]:
+        to_return = []
+        for chunk in self.text_chunks[
+            max(0, chunk_position - radius) : min(
+                len(self.text_chunks), chunk_position + radius
+            )
+        ]:
+            to_return.append(
+                ("\n".join(chunk.cleared_text), "\n".join(chunk.translated_text))
+            )
+        return to_return
+
 
 class EventDocument:
     def __init__(self, filename: Path) -> None:
@@ -142,6 +169,7 @@ class EventDocument:
                     self.dialogues.append(Dialogue([], self.filename))
                 i += 1
 
+
 @dataclass
 class RawTextPointer:
     event_document: EventDocument
@@ -150,7 +178,7 @@ class RawTextPointer:
     event_document_index: int
     dialogue_index: int
     chunk_index: int
-    
+
 
 def main():
     i = 0
@@ -166,9 +194,11 @@ def main():
             lenmax = max(lenmax, summm)
     print(lenmax)
 
+
 @st.cache_resource
 def get_maps_vocabulary():
     return generate_maps_vocabulary()
+
 
 def translate_chunks():
     vocabulary = {}
@@ -210,17 +240,20 @@ st.set_page_config(layout="wide")
 
 @st.cache_resource
 def get_embedding_function():
-    return SentenceTransformerEmbeddings(model_name="intfloat/multilingual-e5-large")
+    return SentenceTransformerEmbeddings(model_name="intfloat/multilingual-e5-large", model_kwargs = {'device': 'cpu'}  )
 
 
 embedding_function = get_embedding_function()
 
+
 @st.cache_resource()
-def get_maps_as_event_documents() -> tuple[list[EventDocument], dict[str, RawTextPointer]]:
+def get_maps_as_event_documents() -> (
+    tuple[list[EventDocument], dict[str, RawTextPointer]]
+):
     raw_chunk_to_position = {}
     documents = []
     vocabulary = get_maps_vocabulary()
-    for doc in Path(f"{SOURCE_FOLDER_JAP}/{MAPS_FOLDER}").glob("**/*.txt"):
+    for doc in Path(f"{FOLDER_TO_PATCH}/{MAPS_FOLDER}").glob("**/*.txt"):
         document = EventDocument(doc)
         documents.append(document)
         for i in range(len(document.dialogues)):
@@ -229,13 +262,22 @@ def get_maps_as_event_documents() -> tuple[list[EventDocument], dict[str, RawTex
                     document.dialogues[i].text_chunks[j].set_translation(
                         vocabulary[document.dialogues[i].text_chunks[j].raw_text]
                     )
-                raw_chunk_to_position["\n".join(document.dialogues[i].text_chunks[j].cleared_text)] = RawTextPointer(
-                    document, document.dialogues[i], document.dialogues[i].text_chunks[j], len(documents)-1, i, j)
+                raw_chunk_to_position[
+                    "\n".join(document.dialogues[i].text_chunks[j].cleared_text)
+                ] = RawTextPointer(
+                    document,
+                    document.dialogues[i],
+                    document.dialogues[i].text_chunks[j],
+                    len(documents) - 1,
+                    i,
+                    j,
+                )
     return documents, raw_chunk_to_position
+
 
 @st.cache_resource()
 def get_maps_as_lagchain_documents():
-    docs = [] 
+    docs = []
     maps_as_event_documents, _ = get_maps_as_event_documents()
     for doc in maps_as_event_documents:
         for dialogue in doc.dialogues:
@@ -253,11 +295,14 @@ def get_maps_as_lagchain_documents():
                 )
     return docs
 
+
 @st.cache_resource()
 def calculate_bm25_retriever():
     return BM25Retriever.from_documents(get_maps_as_lagchain_documents())
 
+
 st.session_state["bm25"] = calculate_bm25_retriever()
+
 
 @st.cache_resource()
 def embed():
@@ -281,34 +326,115 @@ def get_async_vectorstore(db_file: str) -> sqlite3.Connection:
     sqlite_vss.load(connection)
     connection.enable_load_extension(False)
     return SQLiteVSS(
-    embedding=embedding_function,
-    table="skonchalsya",
-    connection=connection,
-)
+        embedding=embedding_function,
+        table="skonchalsya",
+        connection=connection,
+    )
 
 
 vectorstore = get_async_vectorstore("./vss.db")
 
 
+def get_context_from_query(query: str) -> list[list[tuple[str,str]]]:
+    ensemble_retriever = EnsembleRetriever(
+        retrievers=[vectorstore.as_retriever(search_kwargs={"k": 10})], weights=[1]
+    )
+    relevant_docs = ensemble_retriever.invoke(query)
+    _, index = get_maps_as_event_documents()
+    to_return = []
+    for doc in relevant_docs:
+        if index.get(doc.page_content):
+            to_return.append(
+                    index[doc.page_content].dialogue.get_part_of_dialogue(
+                        index[doc.page_content].chunk_index
+                )
+            )
+    return to_return
+
+
 def search_docs():
     ensemble_retriever = EnsembleRetriever(
-        retrievers=[vectorstore.as_retriever(search_kwargs={"k": 10})], 
-    weights=[1])
+        retrievers=[vectorstore.as_retriever(search_kwargs={"k": 10})], weights=[1]
+    )
     relevant_docs = ensemble_retriever.invoke(query)
     to_display = []
     translated_quary = ts.translate_text(query, from_language="ja", to_language="ru")
     to_display.append(translated_quary)
     _, index = get_maps_as_event_documents()
     for doc in relevant_docs:
-        translated_doc = ts.translate_text(doc.page_content, from_language="ja", to_language="ru")
+        translated_doc = ts.translate_text(
+            doc.page_content, from_language="ja", to_language="ru"
+        )
         to_display.append(doc.page_content)
         if index.get(doc.page_content):
-            to_display.append(index[doc.page_content].dialogue)
+            to_display.append(
+                index[doc.page_content].dialogue.get_part_of_dialogue(
+                    index[doc.page_content].chunk_index
+                )
+            )
         to_display.append(translated_doc)
     st.write(to_display)
+
+
+def test_query():
+    st.write(get_context_from_query(query))
+
+
+def test_model():
+    docs, _ = get_maps_as_event_documents()
+    founded = None
+    for doc in docs:
+        # if "Map111.txt" in str(doc.filename):
+        #     founded = doc
+        #     break
+        if "Data/Map111.txt" in str(doc.filename):
+            founded = doc
+            break
+
+    for dialogue in founded.dialogues:
+        for chunk in dialogue.text_chunks:
+            st.write(chunk.cleared_text)
+            messages = [
+                {
+                    "role": "system",
+                    "content": "Ты виртуальный переводчик. Твоя задача перевести сообщения пользователя с японского языка на русский. Тебе возможно будут представлены примеры перевода с японского на русский. В твоем ответе должен содержаться ТОЛЬКО ПЕРЕВОД. Перевод не должен быть дословным, но должен быть грамотным и верным. В сообщениях могут встречаться особые символы или техническая информация, их переводить нельзя",
+                }
+            ]
+            context = get_context_from_query("\n".join(chunk.cleared_text))
+            if len(context) > 0:
+                for dialogue_chunk in context:
+                    for context_chunk in dialogue_chunk:
+                        messages.extend(
+                            [
+                                {
+                                    "role": "user",
+                                    "content": context_chunk[0]
+                                }, 
+                                {
+                                    "role": "assistant",
+                                    "content": context_chunk[1]
+                                }
+                        ]
+                        )
+            messages.append(
+                {
+                    "role": "user",
+                    "content": "\n".join(chunk.cleared_text),
+                }
+            )
+            client = openai.OpenAI(api_key="sk-qq", base_url="http://127.0.0.1:5000/v1")
+
+            chat_completion = client.chat.completions.create(
+                messages=messages, model="gemini-1.5-flash", temperature=0, max_tokens=1024
+            )
+            # st.write(messages)
+            st.write(chat_completion.choices[0].message.content)
+            # break
 
 
 st.button("Embed", on_click=embed)
 st.button("Calculate BM25", on_click=calculate_bm25_retriever)
 query = st.text_input("Query")
 st.button("Search", on_click=search_docs)
+st.button("Test", on_click=test_query)
+st.button("Test model", on_click=test_model)
