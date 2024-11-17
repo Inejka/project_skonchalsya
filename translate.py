@@ -1,4 +1,3 @@
-from copy import deepcopy
 import difflib
 import itertools
 import logging

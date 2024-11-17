@@ -10,8 +10,6 @@ from translate import (
     useful_words,
 )
 import streamlit as st
-import numpy as np
-import pandas as pd
 import translators as ts
 
 from langchain_community.embeddings.sentence_transformer import (
@@ -223,7 +221,6 @@ def translate_chunks():
 # check the percentage of lines with useful words out of all lines with useful words
 def check_useful_words_percentage():
     freq_map = {i: 0 for i in useful_words}
-    total_lines = 0
     for item in Path(f"{SOURCE_FOLDER_JAP}/{MAPS_FOLDER}").glob("**/*.txt"):
         print(item)
         with open(item, "r", encoding="utf-8") as file:
