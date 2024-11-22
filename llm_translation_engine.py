@@ -37,7 +37,7 @@ class Engine:
 
     def get_context_from_query(self, query: str) -> list[list[tuple[str,str]]]:
         ensemble_retriever = EnsembleRetriever(
-            retrievers=[self.vectorstore.as_retriever(search_kwargs={"k": 10})], weights=[1]
+            retrievers=[self.vectorstore.as_retriever(search_kwargs={"k": 7})], weights=[1]
         )
         relevant_docs = ensemble_retriever.invoke(query)
         to_return = []
@@ -45,7 +45,7 @@ class Engine:
             if self.index.get(doc.page_content):
                 to_return.append(
                         self.index[doc.page_content].dialogue.get_part_of_dialogue(
-                            self.index[doc.page_content].chunk_index
+                            self.index[doc.page_content].chunk_index, 3
                     )
                 )
         return to_return

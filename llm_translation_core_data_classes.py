@@ -50,11 +50,11 @@ class DialogueChunk:
     cleared_text: list[str]
     raw_translated_text: str = ""
 
-    def clear_text(self):
+    def clear_text(self) -> None:
         for line in self.raw_text.split("\n"):
             self.cleared_text.append(re.match(r"\W*ShowText\(\[\"(.*)\"\]\)", line)[1])
 
-    def clear_translated_text(self):
+    def clear_translated_text(self) -> None:
         for line in self.raw_translated_text.split("\n"):
             self.translated_text.append(
                 re.match(r"\W*ShowText\(\[\"(.*)\"\]\)", line)[1]
@@ -63,9 +63,15 @@ class DialogueChunk:
     def __post_init__(self):
         self.clear_text()
 
-    def set_translation(self, translation: str):
+    def set_translation(self, translation: str) -> None:
         self.raw_translated_text = translation
         self.clear_translated_text()
+    
+    def is_translated(self) -> bool:
+        return len(self.translated_text) > 0
+    
+    def is_translation_handmade(self) -> bool:
+        return self.raw_translated_text != "" and len(self.translated_text) > 0
 
 
 @dataclass
@@ -87,13 +93,16 @@ class Dialogue:
         to_return = []
         for chunk in self.text_chunks[
             max(0, chunk_position - radius) : min(
-                len(self.text_chunks), chunk_position + radius
+                len(self.text_chunks), chunk_position + radius + 1
             )
         ]:
             to_return.append(
                 ("\n".join(chunk.cleared_text), "\n".join(chunk.translated_text))
             )
         return to_return
+    
+    def require_translation(self) -> bool:
+        return not all([chunk.is_translated() for chunk in self.text_chunks])
 
 
 class GameFile:
@@ -138,6 +147,9 @@ class GameFile:
                 ):
                     self.dialogues.append(Dialogue([], self.filename))
                 i += 1
+
+    def require_translation(self) -> bool:
+        return any([dialogue.require_translation() for dialogue in self.dialogues])
 
 
 @dataclass

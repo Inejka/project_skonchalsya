@@ -6,3 +6,6 @@ sqlite-vss
 rank_bm25
 translators
 openai
+mecab-python3
+unidic
+pyahocorasick
