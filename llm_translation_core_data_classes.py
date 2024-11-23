@@ -15,14 +15,7 @@ def keep_line(line):
 
 DIALOGUE_START_SPLITTERS = []
 DIALOGUE_END_SPLITTERS = [
-    "JumpToLabel",
-    "BranchEnd",
-    "Page",
-    "Label",
-    " Name = ",
     "CommonEvent",
-    "ConditionalBranch",
-    "JumpToLabel",
 ]
 
 
