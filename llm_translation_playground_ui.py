@@ -47,7 +47,7 @@ class TermRetriever:
     def search(self, query: str) -> list[tuple[str, str]]:
         to_return = set()
         for end_pos, pair in self.automaton.iter(query):
-            to_return.append(pair)
+            to_return.add(pair)
             st.write(pair)
         return list(to_return)
 

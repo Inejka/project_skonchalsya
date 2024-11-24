@@ -42,7 +42,6 @@ class Engine:
         relevant_docs = ensemble_retriever.invoke(query)
         to_return = []
         for doc in relevant_docs:
-            print(doc.page_content)
             if self.index.get(doc.page_content):
                 to_return.append(
                     self.index[doc.page_content].dialogue.get_part_of_dialogue(
