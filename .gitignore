@@ -9,8 +9,7 @@ __pycache__
 .venv-pinus
 Scripts_rus_demo
 Scripts_301_jap
-vss copy.db
-vss.db
+*.db
 vocabulary_generator.log
 translation.log
 terms_folder

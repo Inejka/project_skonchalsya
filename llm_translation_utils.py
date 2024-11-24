@@ -43,7 +43,7 @@ def get_maps_as_lagchain_documents(maps_as_event_documents: list[GameFile]) -> l
                             "file": str(doc.filename),
                             "start_line": chunk.start_line,
                             "end_line": chunk.end_line,
-                            "translated": chunk.is_translated(),
+                            "translated": str(chunk.is_translated()),
                             "translation": chunk.raw_translated_text,
                         },
                         id=f"{doc.filename}-{chunk.start_line}-{chunk.end_line}",

@@ -2,10 +2,12 @@ streamlit
 langchain
 sentence-transformers
 langchain-community
-sqlite-vss
 rank_bm25
 translators
 openai
 mecab-python3
 unidic
 pyahocorasick
+storage
+langchain_postgres
+psycopg[binary,pool]
