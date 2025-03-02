@@ -1,0 +1,3998 @@
+a.wp_atk - b.def
+a.wp_atk * 1.0 - b.def
+a.wp_atk * 0.8 - b.def
+a.wp_atk - b.def
+a.atk + a.mat * 2.0 - b.def
+a.wp_atk - b.def
+a.wp_atk - b.mdf
+a.wp_atk * 2.5 - b.def
+a.wp_atk - b.def
+a.wp_atk * 3.0 - b.def
+a.wp_atk - b.def
+a.wp_atk - b.def
+a.luk * 2 * 3.8 - b.def
+b.mhp / 2
+b.mhp
+a.luk * 2 * 4.2 - b.def
+a.luk * 2 * 1.0 - b.def
+a.luk * 2 * 1.5 - b.def
+[a.atk, a.luk].max * 2 * 2.9 - b.def
+a.luk * 2 * 1.8 - b.def
+a.atk * 2 * 0.8 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 1.3 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 1.8 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 1.8 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 3.3 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 2.3 - b.def
+a.atk * 2 * 1.3 - b.def
+[a.atk, a.def].max * 2 * 1.6 - b.def
+a.wp_atk * 8.0 - b.def
+a.wp_atk - b.def
+a.wp_atk - b.def
+a.wp_atk - b.def
+a.wp_atk - b.def
+a.wp_atk * 0.6 - b.def
+a.wp_atk * 5.0 - b.def
+(a.atk + a.luk) * 1.2 * 1.2 - b.def
+(a.atk + a.luk) * 1.2 * 0.8 - b.def
+(a.atk + a.luk) * 1.2 * 1.6 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 1.6 - b.def
+(a.atk + a.luk) * 1.2 * 2.2 - b.def
+(a.atk + a.luk) * 1.2 * 1.0 - b.def
+(a.atk + a.luk) * 1.2 * 3.4 - b.def
+(a.atk + a.luk) * 1.2 * 3.4 - b.def
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+(a.atk + a.luk) * 1.2 * 1.2 - b.def
+(a.atk + a.luk) * 1.4 * 1.0 - b.def
+a.atk * 2 * 1.3 - b.def
+a.atk * 2 * 1.2 - b.def
+a.atk * 2 * 1.7 - b.def
+a.atk * 2 * 1.2 - b.def
+a.atk * 2 * 1.9 - b.def
+a.atk * 2 * 1.9 - b.def
+a.atk * 2 * 1.9 - b.def
+a.atk * 2 * 2.2 - b.def
+a.atk * 2 * 2.2 - b.def
+a.atk * 2 * 2.2 - b.def
+a.atk * 2 * 2.2 - b.def
+a.atk * 2 * 3.4 - b.def
+a.atk * 2 * 0.8 - b.def
+a.atk * 2 * 3.4 - b.def
+a.atk * 2 * 1.6 - b.def
+a.atk * 2 * 2.2 - b.def
+a.atk * 2 * 2.3
+a.atk * 2 * 1.8 - b.def
+a.atk * 2 * 1.4 - b.def
+a.atk * 2 * 2.0 - b.def
+a.atk * 2 * 1.8 - b.def
+a.atk * 2 * 2.2 - b.def
+a.atk * 2 * 3.4 - b.def
+a.atk * 2 * 3.4 - b.def
+a.atk * 2 * 2.2 - b.def
+a.atk * 2 * 2.2 - b.def
+a.atk * 2 * 2.2 - b.def
+a.atk * 2 * 0.8 - b.def
+a.atk * 2 * 3.4 - b.def
+a.atk * 2 * 3.4 - b.def
+a.atk * 2 * 4.7 - b.def
+a.atk * 2 * 4.7 - b.def
+a.atk * 2 * 3.5 - b.def
+a.atk * 2 * 3.4 - b.def
+a.atk * 2 * 3.4 - b.def
+a.atk * 2 * 0.9 - b.def
+a.atk * 2 * 1.0 - b.def
+a.atk * 2 * 3.4 - b.def
+a.atk * 2 * 3.4 - b.def
+a.atk * 2 * 3.4 - b.def
+a.atk * 2 * 3.4 - b.def
+a.atk * 2 * 3.4 - b.def
+a.atk * 2 * 3.4 - b.def
+a.atk * 2 * 4.7 - b.def
+a.atk * 2 * 4.7 - b.def
+a.atk * 2 * 4.7 - b.def
+a.atk * 2 * 3.4 - b.def
+a.atk * 2 * 4.7 - b.def
+a.atk * 2 * 4.7 - b.def
+a.atk * 2 * 4.7 - b.def
+a.atk * 2 * 6.0 - b.def
+a.atk * 2 * 6.0 - b.def
+a.atk * 2 * 1.4 - b.def
+a.atk * 2 * 10.0 - b.def
+a.atk * 2 * 8.0 - b.def
+a.atk * 2 * 8.0 - b.def
+a.atk * 2 * 8.0 - b.def
+a.atk * 1.5
+a.atk * 3
+a.atk * 3
+b.mhp
+(a.atk + a.agi) * 1.2 * 1.3 - b.def
+(a.atk + a.agi) * 1.2 * 1.3 - b.def
+(a.atk + a.agi) * 1.2 * 0.8 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.agi) * 1.2 * 1.0 - b.def
+(a.atk + a.agi) * 1.2 * 1.0 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.agi) * 1.2 * 0.8 - b.def
+(a.atk + a.agi) * 1.2 * 2.2 - b.def
+(a.atk + a.agi) * 1.2 * 4.7 - b.def
+(a.atk + a.agi) * 1.2 * 1.9 - b.def
+(a.atk + a.agi) * 1.2 * 3.4 - b.def
+(a.atk + a.agi) * 1.2 * 3.4 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.luk) * 1.2 * 1.3 - b.def
+(a.atk + a.luk) * 1.2 * 1.2 - b.def
+(a.atk + a.luk) * 1.2 * 2.2 - b.def
+(a.atk + a.luk) * 1.2 * 3.4 - b.def
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+(a.atk + a.luk) * 1.2 * 1.6 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 3.4 - b.def
+(a.atk + a.luk) * 1.2 * 2.2 - b.def
+(a.atk + a.luk) * 1.2 * 2.2 - b.def
+(a.atk + a.luk) * 1.2 * 0.6 - b.def
+(a.atk + a.luk) * 1.2 * 0.6 - b.def
+(a.atk + a.luk) * 1.2 * 3.4 - b.def
+(a.atk + a.luk) * 1.2 * 3.4 - b.def
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+(a.atk + a.luk) * 1.2 * 0.7 - b.def
+(a.atk + a.luk) * 1.2 * 0.8 - b.def
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+(a.atk + a.luk) * 1.2 * 6.0 - b.def
+(a.atk + a.luk) * 1.2 * 6.0 - b.def
+(a.atk + a.luk) * 1.2 * 6.0 - b.def
+a.hp * 5 / 6
+(a.atk + a.agi) * 1.2 * 1.9 - b.def
+(a.atk + a.agi) * 1.2 * 1.6 - b.def
+(a.atk + a.agi) * 1.2 * 1.9 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.agi) * 1.2 * 1.9 - b.def
+(a.atk + a.agi) * 1.2 * 1.9 - b.def
+(a.atk + a.agi) * 1.2 * 1.9 - b.def
+(a.atk + a.agi) * 1.2 * 1.9 - b.def
+(a.atk + a.agi) * 1.2 * 1.9 - b.def
+(a.atk + a.agi) * 1.2 * 1.9 - b.def
+(a.atk + a.agi) * 1.2 * 1.9 - b.def
+(a.atk + a.agi) * 1.2 * 2.2 - b.def
+(a.atk + a.agi) * 1.2 * 2.2 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.agi) * 1.2 * 1.9 - b.def
+(a.atk + a.agi) * 1.2 * 2.2 - b.def
+(a.atk + a.agi) * 1.2 * 1.0 - b.def
+(a.atk + a.agi) * 1.2 * 2.2 - b.def
+(a.atk + a.agi) * 1.2 * 2.2 - b.def
+(a.atk + a.agi) * 1.2 * 0.9 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.agi) * 1.2 * 4.8 - b.def
+(a.atk + a.agi) * 1.2 * 0.6 - b.def
+(a.atk + a.agi) * 1.2 * 4.7 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.agi) * 1.2 * 3.4 - b.def
+(a.atk + a.agi) * 1.2 * 3.4 - b.def
+(a.atk + a.agi) * 1.2 * 3.4 - b.def
+(a.atk + a.agi) * 1.2 * 4.7 - b.def
+(a.atk + a.agi) * 1.2 * 4.7 - b.def
+(a.atk + a.agi) * 1.2 * 3.4 - b.def
+(a.atk + a.agi) * 1.2 * 3.4 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.agi) * 1.2 * 2.2 - b.def
+(a.atk + a.agi) * 1.2 * 3.4 - b.def
+(a.atk + a.agi) * 1.2 * 2.2 - b.def
+(a.atk + a.agi) * 1.2 * 4.7 - b.def
+(a.atk + a.agi) * 1.2 * 4.7 - b.def
+(a.atk + a.agi) * 1.2 * 4.7 - b.def
+a.mdf * 1.5
+a.mdf * 1.5
+a.atk * 2 * 2.2
+a.atk * 2 * 2.2
+a.atk * 2 * 2.2
+a.atk * 2 * 1.9
+a.atk * 2 * 1.2
+a.atk * 2 * 2.3
+a.atk * 2 * 3.0
+a.atk * 2 * 2.2
+a.atk * 2 * 2.2
+a.atk * 2 * 2.2
+a.atk * 2 * 1.2
+a.atk * 2 * 1.2
+a.atk * 2 * 1.2
+a.atk * 2 * 4.7
+a.atk * 2 * 3.4
+a.atk * 2 * 0.6
+a.atk * 2 * 4.7
+a.atk * 2 * 3.4
+a.atk * 2 * 8.0
+a.atk * 2 * 2.4 - b.def / 2
+a.atk * 2 * 1.2 - b.def / 2
+a.atk * 2 * 1.3 - b.def / 2
+a.atk * 2 * 0.9 - b.def / 2
+a.atk * 2 * 2.4 - b.def / 2
+a.atk * 2 * 3.4 - b.def / 2
+a.atk * 2 * 1.9 - b.def / 2
+a.atk * 2 * 3.4 - b.def / 2
+a.atk * 2 * 2.4
+a.atk * 2 * 1.0
+a.atk * 2 * 1.0
+a.atk * 2 * 0.9 - b.def / 2
+a.atk * 2 * 1.0 - b.def / 2
+a.atk * 2 * 1.5 - b.def / 2
+a.atk * 2 * 1.9 - b.def / 2
+(a.atk + a.mat) * 1.9 - b.def / 2
+(a.atk + a.mat) * 3.4 - b.def / 2
+a.atk * 2 * 3.4 - b.def / 2
+a.atk * 2 * 4.7 - b.def / 2
+a.atk * 2 * 2.2 - b.def / 2
+a.atk * 2 * 2.2 - b.def / 2
+a.atk * 2 * 1.2 - b.def / 2
+a.atk * 2 * 3.4 - b.def / 2
+a.atk * 2 * 4.7 - b.def / 2
+a.atk * 2 * 3.4 - b.def / 2
+a.atk * 2 * 6.0 - b.def / 2
+a.atk * 2 * 8.0 - b.def / 2
+[a.atk, a.mat].max * 2 * 1.0 - b.def
+[a.atk, a.mat].max * 2 * 1.5 - b.def
+[a.atk, a.mat].max * 2 * 1.0 - b.def
+[a.atk, a.mat].max * 2 * 0.8 - b.def
+[a.atk, a.mat].max * 2 * 1.9 - b.def
+[a.atk, a.mat].max * 2 * 4.7 - b.def
+[a.atk, a.mat].max * 2 * 2.2 - b.def
+[a.atk, a.mat].max * 2 * 4.7 - b.def
+[a.atk, a.mat].max * 2 * 2.2 - b.def
+[a.atk, a.mat].max * 2 * 4.7 - b.def
+[a.atk, a.mat].max * 2 * 2.2 - b.def
+[a.atk, a.mat].max * 2 * 4.7 - b.def
+[a.atk, a.mat].max * 2 * 3.4 - b.def
+[a.atk, a.mat].max * 2 * 1.6 - b.def
+[a.atk, a.mat].max * 2 * 4.7 - b.def
+[a.atk, a.mat].max * 2 * 6.0 - b.def
+[a.atk, a.mat].max * 2 * 2.0 - b.def
+[a.atk, a.mat].max * 2 * 10.0 - b.def
+[a.atk, a.mat].max * 2 * 1.3 - b.def
+[a.atk, a.mat].max * 2 * 1.6 - b.def
+[a.atk, a.mat].max * 2 * 2.2 - b.def
+(a.atk + a.luk) * 1.2 * 0.8 - b.def
+(a.atk + a.luk) * 1.2 * 0.7 - b.def
+(a.atk + a.luk) * 1.2 * 2.1 - b.def
+(a.atk + a.luk) * 1.2 * 1.0 - b.def
+(a.atk + a.luk) * 1.2 * 1.0 - b.def
+(a.atk + a.luk) * 1.2 * 1.0 - b.def
+(a.atk + a.luk) * 1.2 * 1.0 - b.def
+(a.atk + a.luk) * 1.2 * 1.0 - b.def
+(a.atk + a.luk) * 1.2 * 1.0 - b.def
+(a.atk + a.luk) * 1.2 * 0.8 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 2.2 - b.def
+(a.atk + a.luk) * 1.2 * 1.2 - b.def
+(a.atk + a.luk) * 1.2 * 2.2 - b.def
+(a.atk + a.luk) * 1.2 * 2.2 - b.def
+(a.atk + a.luk) * 1.2 * 3.4 - b.def
+(a.atk + a.luk) * 1.2 * 1.3 - b.def
+(a.atk + a.luk) * 1.2 * 1.3 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 2.2 - b.def
+(a.atk + a.luk) * 1.2 * 1.6 - b.def
+(a.atk + a.luk) * 1.2 * 1.6 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 3.4 - b.def
+(a.atk + a.luk) * 1.2 * 1.2 - b.def
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+(a.atk + a.luk) * 1.2 * 3.4 - b.def
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+(a.atk + a.luk) * 1.2 * 3.4 - b.def
+(a.atk + a.luk) * 1.2 * 0.8 - b.def
+(a.atk + a.luk) * 1.2 * 0.8 - b.def
+(a.atk + a.luk) * 1.2 * 6.0 - b.def
+(a.atk + a.luk) * 1.2 * 1.5 - b.def
+(a.atk + a.luk) * 1.2 * 1.0 - b.def
+(a.atk + a.luk) * 1.2 * 1.0 - b.def
+a.luk * 3.0
+a.luk * 3.0
+(a.atk + a.luk) * 1.2 * 0.8 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 2.2 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 2.2 - b.def
+(a.atk + a.luk) * 1.2 * 1.6 - b.def
+(a.atk + a.luk) * 1.2 * 2.2 - b.def
+(a.atk + a.luk) * 1.2 * 3.4 - b.def
+(a.atk + a.luk) * 1.2 * 1.0 - b.def
+(a.atk + a.luk) * 1.2 * 1.2 - b.def
+(a.atk + a.luk) * 1.2 * 3.4 - b.def
+(a.atk + a.luk) * 1.2 * 1.2 - b.def
+(a.atk + a.luk) * 1.2 * 3.4 - b.def
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+(a.atk + a.luk) * 1.2 * 1.0 - b.def
+(a.atk + a.luk) * 1.2 * 1.6 - b.def
+(a.atk + a.luk) * 1.2 * 1.6 - b.def
+(a.atk + a.luk) * 1.2 * 1.6 - b.def
+(a.atk + a.luk) * 1.2 * 1.3 - b.def
+(a.atk + a.luk) * 1.2 * 1.6 - b.def
+(a.atk + a.luk) * 1.2 * 1.0 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 1.4 - b.def
+(a.atk + a.luk) * 1.2 * 2.2 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 2.2 - b.def
+(a.atk + a.luk) * 1.2 * 3.4 - b.def
+(a.atk + a.luk) * 1.2 * 3.4 - b.def
+(a.atk + a.luk) * 1.2 * 1.2 - b.def
+(a.atk + a.luk) * 1.2 * 1.0 - b.def
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+(a.atk + a.luk) * 1.2 * 6.0 - b.def
+(a.atk + a.luk) * 1.2 * 6.0 - b.def
+(a.atk + a.luk) * 1.2 * 8.0 - b.def
+(a.atk + a.luk) * 1.2 * 2.0 - b.def
+(a.atk + a.luk) * 1.2 * 2.8 - b.def
+(a.atk + a.luk) * 1.2 * 15.3 - b.def
+a.atk * 2 * 1.6 - b.def / 2
+a.atk * 2 * 1.6 - b.def / 2
+a.atk * 2 * 1.6 - b.def / 2
+a.atk * 2 * 1.6 - b.def / 2
+a.atk * 2 * 1.6 - b.def / 2
+a.atk * 2 * 1.9 - b.def / 2
+a.atk * 2 * 1.9 - b.def / 2
+a.atk * 2 * 1.2 - b.def / 2
+a.atk * 2 * 2.2 - b.def / 2
+a.atk * 2 * 2.2 - b.def / 2
+a.atk * 2 * 1.9 - b.def / 2
+a.atk * 2 * 1.9 - b.def / 2
+a.atk * 2 * 2.2 - b.def / 2
+a.atk * 2 * 3.4 - b.def / 2
+a.atk * 2 * 4.7 - b.def / 2
+a.atk * 2 * 1.0 - b.def / 2
+a.atk * 2 * 1.7 - b.def / 2
+a.atk * 2 * 3.4 - b.def / 2
+a.atk * 2 * 3.4 - b.def / 2
+a.atk * 2 * 4.7 - b.def / 2
+a.atk * 2 * 1.6 - b.def / 2
+a.atk * 2 * 8.0 - b.def / 2
+a.atk * 2 * 8.0 - b.def / 2
+a.atk * 2 * 12.7 - b.def / 2
+a.atk * 2 * 15.3 - b.def / 2
+(a.luk + a.agi) * 1.2 * 1.0 - b.def
+(a.luk + a.agi) * 1.2 * 1.3 - b.def
+(a.luk + a.agi) * 1.2 * 1.9 - b.def
+(a.luk + a.agi) * 1.2 * 1.9 - b.def
+(a.luk + a.agi) * 1.2 * 2.8 - b.def
+(a.luk + a.agi) * 1.2 * 1.9 - b.def
+(a.luk + a.agi) * 1.2 * 1.9 - b.def
+(a.luk + a.agi) * 1.2 * 3.4 - b.def
+(a.luk + a.agi) * 1.2 * 1.9 - b.def
+(a.luk + a.agi) * 1.2 * 3.4 - b.def
+(a.luk + a.agi) * 1.2 * 1.9 - b.def
+(a.luk + a.agi) * 1.2 * 4.7 - b.def
+(a.luk + a.agi) * 1.9 - 1.2 * b.def
+(a.luk + a.agi) * 1.2 * 3.4 - b.def
+(a.luk + a.agi) * 1.2 * 2.2 - b.def
+(a.luk + a.agi) * 1.2 * 3.4 - b.def
+(a.luk + a.agi) * 1.2 * 2.2 - b.def
+(a.luk + a.agi) * 1.2 * 4.7 - b.def
+(a.luk + a.agi) * 1.2 * 4.7 - b.def
+(a.luk + a.agi) * 1.2 * 3.4 - b.def
+(a.luk + a.agi) * 1.2 * 6.0 - b.def
+(a.luk + a.agi) * 1.2 * 6.0 - b.def
+(a.luk + a.agi) * 1.2 * 8.0 - b.def
+(a.luk + a.agi) * 1.2 * 4.7 - b.def
+(a.luk + a.agi) * 1.2 * 8.0 - b.def
+(a.luk + a.agi) * 1.2 * 2.0 - b.def
+(a.luk + a.agi) * 1.2 * 8.0 - b.def
+a.luk * 2 * 0.9 - b.def
+a.luk * 2 * 1.6 - b.def
+a.luk * 2 * 0.8 - b.def
+a.luk * 2 * 1.9 - b.def
+a.luk * 2 * 2.3 - b.def
+a.luk * 2 * 1.9 - b.def
+a.luk * 2 * 1.9 - b.def
+a.luk * 2 * 1.9 - b.def
+a.luk * 2 * 1.9 - b.def
+a.luk * 2 * 1.9 - b.def
+a.luk * 2 * 1.9 - b.def
+a.luk * 2 * 2.2 - b.def
+a.luk * 2 * 0.9 - b.def
+a.luk * 2 * 3.4 - b.def
+a.luk * 2 * 4.7 - b.def
+a.luk * 2 * 4.7 - b.def
+a.luk * 2 * 4.7 - b.def
+a.luk * 2 * 3.4 - b.def
+a.luk * 2 * 3.4 - b.def
+a.luk * 2 * 1.2 - b.def
+a.luk * 2 * 1.2 - b.def
+a.luk * 2 * 8.0 - b.def
+a.luk * 2 * 8.0 - b.def
+a.luk * 2 + (a.mhp - a.hp) * 3 - b.def
+a.luk * 2 * 1.5 - b.def
+a.luk * 2 * 2.2 - b.def
+b.hp * 4 / 5
+b.hp
+a.luk * 2 * 1.5 + (a.mhp - a.hp) * 3 - b.def
+a.luk * 3.0
+a.luk * 1.5
+a.atk * 2 * 2.0 - b.def
+a.atk * 2 * 1.2 - b.def
+a.atk * 2 * 3.3 - b.def
+a.atk * 2 * 1.0 - b.def
+a.atk * 2 * 1.5 - b.def
+a.atk * 2 * 1.2 - b.def
+a.atk * 2 * 1.2 - b.def
+a.atk * 2 * 4.5 - b.def
+a.atk * 2 * 15.0 - b.def
+a.atk * 2 * 1.5 - b.def
+a.atk * 2 * 1.8 - b.def
+a.atk * 2 * 1.8 - b.def
+a.atk * 2 * 0.7 - b.def
+a.atk * 2 * 12.0 - b.def
+a.atk * 2 * 7.0 - b.def
+a.atk * 2 * 19.0 - b.def
+a.atk * 2 * 23.0 - b.def
+a.atk * 2 * 1.2 - b.def
+a.atk * 2 * 0.9 - b.def
+a.atk * 2 * 23.0 - b.def
+(a.atk + a.agi) * 1.2 * 0.6 - b.def
+(a.atk + a.agi) * 1.2 * 1.3 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.agi) * 1.2 * 1.0 - b.def
+(a.atk + a.agi) * 1.2 * 1.0 - b.def
+(a.atk + a.agi) * 1.2 * 1.8 - b.def
+(a.atk + a.agi) * 1.2 * 2.0 - b.def
+(a.atk + a.agi) * 1.2 * 0.9 - b.def
+(a.atk + a.agi) * 1.2 * 2.2 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.agi) * 1.2 * 2.2 - b.def
+(a.atk + a.agi) * 1.2 * 2.2 - b.def
+(a.atk + a.agi) * 1.2 * 3.4 - b.def
+(a.atk + a.agi) * 1.2 * 3.4 - b.def
+(a.atk + a.agi) * 1.2 * 3.4 - b.def
+(a.atk + a.agi) * 1.2 * 2.2 - b.def
+(a.atk + a.agi) * 1.2 * 3.4 - b.def
+(a.atk + a.agi) * 1.2 * 2.2 - b.def
+(a.atk + a.agi) * 1.2 * 1.9 - b.def
+(a.atk + a.agi) * 1.2 * 2.2 - b.def
+(a.atk + a.agi) * 1.2 * 1.9 - b.def
+(a.atk + a.agi) * 1.2 * 4.7 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.agi) * 1.2 * 1.0 - b.def
+(a.atk + a.agi) * 1.2 * 1.0 - b.def
+(a.atk + a.agi) * 1.2 * 3.4 - b.def
+(a.atk + a.agi) * 1.2 * 3.4 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.agi) * 1.2 * 4.7 - b.def
+(a.atk + a.agi) * 1.2 * 4.7 - b.def
+(a.atk + a.agi) * 1.2 * 0.8 - b.def
+(a.atk + a.agi) * 1.2 * 0.8 - b.def
+(a.atk + a.agi) * 3.4 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.agi) * 1.2 * 6.0 - b.def
+(a.luk + a.agi) * 1.2 * 1.9 - b.def
+(a.luk + a.agi) * 1.2 * 0.9 - b.def
+[a.luk, a.agi].max * 2 * 3.4 - (b.def + b.mdf) / 2
+[a.luk, a.agi].max * 2 * 2.2 - (b.def + b.mdf) / 2
+[a.luk, a.agi].max * 2 * 1.2 - (b.def + b.mdf) / 2
+[a.luk, a.agi].max * 2 * 4.7 - (b.def + b.mdf) / 2
+[a.luk, a.agi].max * 2 * 8.0 - (b.def + b.mdf) / 2
+[a.luk, a.agi].max * 2 * 23.0 - (b.def + b.mdf) / 2
+a.mhp / 2
+a.hp
+a.mhp / 2
+b.mhp / 5
+b.mhp
+a.mdf * 1.5
+a.mdf * 3.0
+a.mdf * 1.5
+a.mdf * 3.0
+b.mhp / 2
+b.mhp
+b.mhp
+[a.mat, a.mdf].max * 2 * 2.5 - b.mdf
+[a.mat, a.mdf].max * 2 * 5.0 - b.mdf
+[a.mat, a.mdf].max * 2 * 3.0 - b.mdf
+[a.mat, a.mdf].max * 2 * 3.0 - b.mdf
+a.mat * 2 * 1.6 - b.mdf
+a.mat * 2 * 2.0 - b.mdf
+a.mat * 2 * 1.4 - b.mdf
+a.mat * 2 * 3.0 - b.mdf
+a.mat * 2 * 5.0 - b.mdf
+a.mat * 2 * 7.0 - b.mdf
+a.mat * 2 * 1.6 - b.mdf
+a.mat * 2 * 2.0 - b.mdf
+a.mat * 2 * 1.4 - b.mdf
+a.mat * 2 * 3.0 - b.mdf
+a.mat * 2 * 5.0 - b.mdf
+a.mat * 2 * 7.0 - b.mdf
+a.mat * 2 * 1.6 - b.mdf
+a.mat * 2 * 2.0 - b.mdf
+a.mat * 2 * 1.4 - b.mdf
+a.mat * 2 * 3.0 - b.mdf
+a.mat * 2 * 5.0 - b.mdf
+a.mat * 2 * 7.0 - b.mdf
+a.mat * 2 * 1.6 - b.mdf
+a.mat * 2 * 3.0 - b.mdf
+a.mat * 2 * 5.0 - b.mdf
+a.mat * 2 * 1.6 - b.mdf
+a.mat * 2 * 3.0 - b.mdf
+a.mat * 2 * 5.0 - b.mdf
+a.mat * 2 * 1.6 - b.mdf
+a.mat * 2 * 3.0 - b.mdf
+a.mat * 2 * 5.0 - b.mdf
+a.mat * 2 * 7.0 - b.mdf
+a.mat * 2 * 7.0 - b.mdf
+a.mat * 2 * 2.3 - b.mdf
+a.mat * 2 * 3.9 - b.mdf
+a.mat * 2 * 9.0 - b.mdf
+a.mat * 2 * 6.5 - b.mdf
+a.mat * 2 * 12.0 - b.mdf
+a.mat * 2 * 1.5 - b.mdf
+a.mat * 2 * 0.1
+a.mat * 2
+b.hp / 2
+b.hp * 3 / 4
+a.mat * 2 * 3.3
+a.mat * 2 * 5.0
+a.mat * 2 * 5.0
+a.mat * 2 * 7.0
+a.mat * 2 * 7.0 - b.mdf
+[a.mat, a.luk].max * 2 * 2.4 - b.mdf
+[a.mat, a.luk].max * 2 * 3.3 - b.mdf
+[a.mat, a.luk].max * 2 * 3.3 - b.mdf
+b.mhp
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.agi].max * 2 * 6.0 - b.mdf
+[a.mat, a.def].max * 2 * 6.0 - b.mdf
+[a.mat, a.mdf].max * 2 * 6.0 - b.mdf
+[a.mat, a.atk].max * 2 * 6.0 - b.mdf
+[a.mat, a.agi].max * 2 * 6.0 - b.mdf
+[a.mat, a.def].max * 2 * 6.0 - b.mdf
+[a.mat, a.mdf].max * 2 * 6.0 - b.mdf
+[a.mat, a.atk].max * 2 * 6.0 - b.mdf
+[a.mat, a.luk].max * 2 * 9.0 - b.mdf
+[a.mat, a.luk].max * 2 * 7.0 - b.mdf
+[a.mat, a.luk].max * 2 * 1.5 - b.mdf
+[a.mat, a.luk].max * 2 * 12.0 - b.mdf
+[a.mat, a.luk].max * 2 * 1.3 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 1.2 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.1 - (b.def + b.mdf) / 2
+(a.mat + a.luk) * 1.2 * 2.4 - b.def
+(a.mat + a.luk) * 1.2 * 3.3 - b.def
+(a.mat + a.luk) * 1.2 * 2.9 - b.def
+(a.mat + a.luk) * 1.2 * 5.0 - (b.def + b.mdf) / 2
+(a.mat + a.luk) * 1.2 * 7.0 - b.def
+(a.mat + a.luk) * 1.2 * 5.0 - (b.def + b.mdf) / 2
+(a.mat + a.luk) * 1.2 * 5.0 - b.def
+(a.mat + a.luk) * 1.2 * 1.8 - b.def
+a.mat * 2 * 2.0 - b.mdf
+a.mat * 2 * 3.3 - (b.def + b.mdf) / 2
+a.mat * 2 * 2.9 - b.mdf
+a.mat * 2 * 1.7 - b.mdf
+a.mdf * 3.0
+a.mat * 2 * 7.0 - b.mdf
+a.mat * 2 * 5.0 - b.mdf
+a.mat * 2 * 7.0 - (b.def + b.mdf) / 2
+a.mat * 2 * 7.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 1.2 - b.def
+a.luk * 2 * 5.0 - b.def
+a.luk * 2 * 1.5 - b.def
+a.luk * 2 * 2.9 - b.def
+a.luk * 2 * 3.3 - (b.def + b.mdf) / 2
+a.luk * 2 * 7.0 - b.def
+a.luk * 2 * 5.0 - b.def
+a.luk * 2 * 1.8 - b.def
+a.luk * 2 * 7.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.1 - b.def
+a.luk * 2 * 12.0 - b.def
+a.luk * 2 * 15.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 7.0 - b.mdf
+[a.luk, a.mdf].max * 2 * 0.8 - b.mdf
+[a.luk, a.mdf].max * 2 * 2.5 - b.mdf
+[a.luk, a.mdf].max * 2 * 5.0 - b.mdf
+[a.luk, a.mdf].max * 2 * 1.5 - b.mdf
+[a.luk, a.mdf].max * 2 * 5.0 - b.mdf
+[a.atk, a.mdf].max * 2 * 5.0 - b.mdf
+[a.luk, a.mdf].max * 2 * 3.3 - b.mdf
+[a.luk, a.mdf].max * 2 * 5.0 - b.mdf
+[a.atk, a.mdf].max * 2 * 7.0 - b.mdf
+[a.luk, a.mdf].max * 2 * 7.0 - b.mdf
+[a.luk, a.mdf].max * 2 * 7.0 - b.mdf
+[a.luk, a.mdf].max * 2 * 5.0
+[a.atk, a.mdf].max * 2 * 12.0 - b.mdf
+[a.luk, a.mdf].max * 2 * 12.0 - b.mdf
+[a.luk, a.mdf].max * 2 * 12.0 - b.mdf
+[a.luk, a.mdf].max * 2 * 15.0 - b.mdf
+[a.atk, a.mdf].max * 2 * 19.0 - b.mdf
+[a.luk, a.mdf].max * 2 * 2.0 - (b.def + b.mdf) / 2
+[a.luk, a.mdf].max * 2 * 2.4 - (b.def + b.mdf) / 2
+[a.luk, a.mdf].max * 2 * 3.3 - (b.def + b.mdf) / 2
+[a.luk, a.mdf].max * 2 * 3.3 - (b.def + b.mdf) / 2
+[a.luk, a.mdf].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.luk, a.mdf].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.luk, a.mdf].max * 2 * 7.0 - (b.def + b.mdf) / 2
+[a.luk, a.mdf].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.luk, a.mdf].max * 2 * 3.0 - (b.def + b.mdf) / 2
+a.mdf * 3.0
+b.mhp
+b.mhp / 5
+b.mhp
+a.hp * 5.0
+b.mhp
+a.mhp / 2.0
+a.mhp
+[a.atk, a.mat].max * 2 * 5.0
+[a.atk, a.mat].max * 2 * 5.0
+[a.atk, a.mat].max * 2 * 5.0
+[a.atk, a.mat].max * 2 * 5.0
+[a.atk, a.mat].max * 2 * 5.0
+[a.atk, a.mat].max * 2 * 7.0
+[a.atk, a.mat].max * 2 * 9.0
+[a.atk, a.mat].max * 2 * 3.3
+[a.atk, a.mat].max * 2 * 7.0
+[a.atk, a.mat].max * 2 * 7.0
+[a.atk, a.mat].max * 2 * 2.3
+[a.atk, a.mat].max * 2 * 12.0
+[a.atk, a.mat].max * 2 * 4.1
+[a.atk, a.mat].max * 2 * 19.0
+[a.atk, a.mat].max * 2 * 23.0
+[a.atk, a.mat].max * 2 * 28.0
+[a.atk, a.mat].max * 2 * 4.7
+[a.atk, a.mat].max * 2 * 6.5
+[a.atk, a.mat].max * 2 * 39.0
+[a.atk, a.mat].max * 2 * 39.0
+[a.atk, a.mat].max * 2 * 48.0
+[a.mat, a.luk].max * 2 * 2.5 - b.mdf
+[a.mat, a.luk].max * 2 * 2.5 - b.mdf
+[a.mat, a.luk].max * 2 * 2.5 - b.mdf
+[a.mat, a.luk].max * 2 * 2.7 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 7.0 - b.mdf
+[a.mat, a.luk].max * 2 * 2.0 - b.mdf
+[a.mat, a.luk].max * 2 * 3.0 - b.mdf
+[a.mat, a.luk].max * 2 * 7.0 - b.mdf
+[a.mat, a.luk].max * 2 * 1.8 - b.mdf
+[a.mat, a.luk].max * 2 * 3.2 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 3.3 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 7.0 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+a.mdf * 1.5
+a.wp_atk - b.def
+a.luk * 2 * 2.0 - b.def
+a.luk * 2 * 0.1
+[a.agi, a.luk].max * 2 * 7.0 + $game_library.actor_steal(a.id) * 200
+[a.agi, a.luk].max * 2 * 9.0 + $game_library.actor_steal(a.id) * 200
+[a.atk, a.luk].max * 2 * 2.9 - b.mdf
+[a.atk, a.luk].max * 2 * 2.9 - b.mdf
+[a.atk, a.luk].max * 2 * 2.9 - b.mdf
+[a.atk, a.luk].max * 2 * 2.9 - b.mdf
+[a.atk, a.luk].max * 2 * 2.9 - b.mdf
+[a.atk, a.luk].max * 2 * 2.9 - b.mdf
+[a.atk, a.luk].max * 2 * 2.9 - b.mdf
+[a.atk, a.luk].max * 2 * 2.9 - b.def
+[a.atk, a.luk].max * 2 * 7.0 - b.def
+[a.atk, a.luk].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk].max * 2 * 1.8 - b.def
+[a.atk, a.luk].max * 2 * 7.0 - b.def
+[a.atk, a.luk].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk].max * 2 * 1.2 - b.def
+[a.atk, a.luk].max * 2 * 1.8 - b.def
+[a.atk, a.luk].max * 2 * 3.3 - b.mdf
+[a.atk, a.luk].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk].max * 2 * 7.0 - b.mdf
+[a.atk, a.luk].max * 2 * 7.0 - b.mdf
+[a.atk, a.luk].max * 2 * 9.0 - b.mdf
+[a.atk, a.luk].max * 2 * 1.2 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 1.7 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 1.5 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 7.0 - (b.def + b.mdf) / 2
+a.luk
+[a.atk, a.agi, a.luk].max * 2 * 1.5 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 1.5 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 2.9 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 1.3 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 3.3 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 2.9 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 2.9 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 2.4 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 3.3 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 3.3 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 1.8 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 3.3 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 1.8 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 5.0 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 0.9 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 5.0 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 1.8 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 1.8 - b.def
+[a.mat, a.luk].max * 2 * 2.9 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.atk, a.agi, a.luk].max * 2 * 1.8 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 1.8 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 3.3 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 2.3 - b.def
+a.atk * 2 * 3.3 - b.def
+a.atk * 2 * 1.5 - b.def
+a.atk * 2 * 3.3 - b.def
+a.atk * 2 * 1.4 - b.def
+a.atk * 2 * 9.0 - b.def
+a.atk * 2 * 9.0 - b.def
+a.atk * 2 * 12.0 - b.def
+a.mdf * 3
+a.mhp
+a.mat * 2 * 3.3 - b.mdf
+a.mat * 2 * 3.3 - b.mdf
+a.mdf * 1.5
+a.atk * 2 * 4.8 - b.def
+a.atk * 2 * 23.0 - b.def
+a.atk * 2 * 23.0 - b.def
+[a.mat, a.agi, a.luk].max * 2 * 7.0
+[a.mat, a.agi, a.luk].max * 2 * 10.0
+a.mat * 2 * 9.0 - b.mdf
+a.mat * 2 * 2.3 - b.mdf
+a.mat * 2 * 12.0 - b.mdf
+a.mat * 2 * 23.0
+a.mat * 2 * 19.0
+v[108] * 100
+v[108] * 300
+v[108] * 1000
+v[108] * 3000
+v[102] / 20
+a.mhp
+a.mmp
+50
+300
+5000
+30
+100
+500
+b.mhp / 5
+b.mhp
+50
+300
+5000
+30
+50
+500
+b.mhp
+b.mhp / 5
+b.mhp
+a.luk * 2 * 1.5 - b.mdf
+a.luk * 2 * 1.5 - b.mdf
+a.luk * 2 * 1.5 - b.mdf
+a.luk * 2 * 1.5 - b.mdf
+a.luk * 2 * 1.5 - b.mdf
+a.luk * 2 * 1.5 - b.mdf
+a.luk * 2 * 1.5 - b.mdf
+a.luk * 2 * 1.5 - b.mdf
+a.luk * 2 * 1.9 - b.def
+a.luk * 2 * 2.8 - b.def
+a.luk * 2 * 2.8 - b.def
+a.luk * 2 * 1.5 - b.def
+a.luk * 2 * 4.0
+a.luk * 2 * 4.7 - b.def
+a.luk * 2 * 1.9 - b.def
+a.luk
+a.luk * 1.5
+a.luk * 2 * 1.9 - b.mdf
+a.luk * 2 * 3.4 - b.mdf
+a.luk * 2 * 1.9 - b.mdf
+a.luk * 2 * 1.9 - b.mdf
+a.luk * 2 * 1.9 - b.mdf
+a.luk * 2 * 1.9 - b.mdf
+a.luk * 2 * 1.9 - b.mdf
+a.luk * 2 * 3.4 - b.mdf
+a.luk * 2 * 1.0 - b.def
+a.luk * 2 * 3.4 - b.mdf
+a.luk * 2 * 3.4 - b.mdf
+a.luk * 2 * 3.4 - b.mdf
+a.luk * 2 * 3.4 - b.mdf
+a.luk * 2 * 4.7 - b.mdf
+a.luk * 2 * 6.0 - b.mdf
+a.luk * 2 * 6.0 - b.mdf
+(a.mat + a.luk) * 0.1
+a.luk
+a.luk * 1.5
+b.mhp
+a.luk * 2 * 1.0 - b.def - (b.def + b.mdf) / 2
+a.luk * 2 * 1.9 - b.mdf
+a.luk * 2 * 3.4 - b.mdf
+a.luk * 2 * 1.9 - b.mdf
+a.luk * 2 * 3.4 - b.mdf
+a.luk * 2 * 1.9 - b.mdf
+a.luk * 2 * 4.7 - b.mdf
+a.luk * 2 * 1.9 - b.mdf
+a.luk * 2 * 3.4 - b.mdf
+b.mhp / 5
+a.luk * 2 * 5.0 - b.mdf
+a.luk * 3.0
+[a.mat, a.luk].max * 2 * 2.0 - b.mdf
+[a.mat, a.luk].max * 2 * 3.0 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 2.0 - b.mdf
+[a.mat, a.luk].max * 2 * 3.0 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 2.0 - b.mdf
+[a.mat, a.luk].max * 2 * 3.0 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 3.5 - b.mdf
+[a.mat, a.luk].max * 2 * 3.3 - b.def
+[a.mat, a.luk].max * 2 * 3.3 - b.def
+[a.mat, a.luk].max * 2 * 3.3 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 7.0 - b.mdf
+b.mhp / 2
+b.mhp
+b.mhp
+b.mmp / 3
+b.mmp
+b.mmp
+b.mhp
+[a.luk, a.mat].max * 2 * 12.0 - b.def
+[a.luk, a.mat].max * 2 * 15.0
+[a.atk, a.luk, a.mat].max * 2 * 12.0 - b.def
+a.wp_atk * 0.6 - b.def / 2
+a.mat * 2 * 2.9 - b.mdf
+a.mat * 2 * 2.9 - b.mdf
+a.mat * 2 * 2.9 - b.mdf
+a.mat * 2 * 5.0 - b.mdf
+a.mat * 2 * 5.0 - b.mdf
+a.mat * 2 * 5.0 - b.mdf
+a.mat * 2 * 5.0 - b.mdf
+a.mat * 2 * 3.3 - (b.def + b.mdf) / 2
+a.mat * 2 * 3.3 - b.mdf
+a.mat * 2 * 5.0 - b.mdf
+a.mat * 2 * 7.0 - b.mdf
+a.mat * 2 * 7.0
+a.mat * 2 * 9.0 - b.mdf
+a.mdf * 3.0
+b.mhp
+b.mhp
+a.luk * 2 * 2.0
+a.luk * 2 * 1.7
+a.luk * 2 * 1.7
+a.luk * 2 * 2.4
+a.luk * 2 * 2.0
+a.luk * 2 * 2.0
+a.luk * 2 * 2.4
+a.luk * 2 * 2.4
+a.luk * 2 * 2.9
+a.luk * 2 * 1.5
+a.luk * 2 * 2.9
+a.luk * 2 * 2.9
+a.luk * 2 * 5.0
+a.luk * 2 * 5.0
+a.luk * 2 * 5.0
+a.luk * 2 * 1.0
+a.luk * 2 * 7.0
+a.luk * 2 * 0.9
+a.luk * 2 * 12.0
+a.luk * 2 * 7.0
+a.luk * 2 * 9.0
+a.luk * 2 * 2.5
+a.luk * 2 * 1.6 - b.mdf
+a.luk * 2 * 1.6 - b.mdf
+a.luk * 2 * 1.6 - b.mdf
+a.luk * 2 * 1.6 - b.mdf
+a.luk * 1.0
+a.luk * 2 * 1.6 - b.mdf
+a.luk * 2 * 1.6 - b.mdf
+a.luk * 2 * 1.6 - b.mdf
+a.luk * 2 * 1.6 - b.mdf
+a.luk * 2 * 1.9 - b.mdf
+a.luk * 2 * 1.9 - b.mdf
+a.luk * 2 * 1.9 - b.mdf
+a.luk * 2 * 1.9 - b.mdf
+a.luk * 2 * 1.9 - b.mdf
+a.luk * 2 * 1.9 - b.mdf
+a.luk * 1.0
+a.luk * 2 * 2.2 - b.mdf
+a.luk * 2 * 2.2 - b.mdf
+a.luk * 2 * 2.2 - b.mdf
+a.luk * 2 * 2.2 - b.mdf
+a.luk * 2 * 2.2 - b.mdf
+a.luk * 2 * 2.2 - b.mdf
+a.luk * 2 * 2.2 - b.mdf
+a.luk * 2 * 3.4 - b.mdf
+a.luk * 2 * 3.4 - b.mdf
+a.luk * 2 * 3.4 - b.mdf
+a.luk * 3.0
+a.luk * 2 * 3.4 - b.mdf
+a.luk * 2 * 3.4 - b.mdf
+a.luk * 2 * 3.4 - b.mdf
+a.luk * 2 * 3.4 - b.mdf
+a.luk * 2 * 3.4 - b.mdf
+a.luk * 2 * 3.4 - b.mdf
+a.luk * 3.0
+(a.atk + a.luk) * 1.2 * 1.3 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.def
+(a.atk + a.luk) * 1.2 * 3.4 - b.def
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+(a.atk + a.luk) * 1.2 * 1.9 - b.mdf
+(a.atk + a.luk) * 1.2 * 4.7 - b.mdf
+a.luk * 2 * 1.6 - (b.def + b.mdf) / 2
+a.luk * 2 * 1.9 - (b.def + b.mdf) / 2
+a.luk * 3.0
+b.mhp
+a.luk * 3.0
+b.mhp
+b.mhp / 5
+b.mhp / 5
+a.luk * 2 * 1.5 - b.def
+a.luk * 2 * 0.8 - b.def
+a.luk * 2 * 1.9 - b.def
+a.luk * 2 * 3.4 - b.def
+a.luk * 2 * 1.0 - b.def
+a.luk * 2 * 0.6 - b.def
+a.luk * 2 * 4.7 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.0 - b.def
+a.luk * 2 * 1.5 - b.def
+a.luk * 2 * 1.5 - b.def
+a.luk * 2 * 1.3 - (b.def + b.mdf) / 2
+a.luk * 2 * 1.9 - (b.def + b.mdf) / 2
+a.luk * 2 * 3.4 - (b.def + b.mdf) / 2
+a.luk * 2 * 3.4 - (b.def + b.mdf) / 2
+a.luk * 2 * 1.6 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.2 - (b.def + b.mdf) / 2
+a.luk * 2 * 3.4 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.2 - (b.def + b.mdf) / 2
+a.luk * 2 * 0.6 - (b.def + b.mdf) / 2
+a.luk * 0.5
+a.luk * 1.0
+a.luk * 2
+a.mdf * 0.5
+a.atk * 2 * 3.3 - b.def
+a.atk * 2 * 5.0 - b.def
+a.atk * 2 * 7.0 - b.def
+a.atk * 2 * 7.0 - b.def
+a.mat * 2 * 7.0 - b.mdf
+a.mat * 2 * 7.0 - b.mdf
+a.mat * 2 * 3.3 - b.mdf
+a.mat * 2 * 7.0 - b.mdf
+a.luk * 2 * 7.0 - b.def
+a.mat * 2 * 12.0 - b.mdf
+a.atk * 2 * 1.3 - b.def
+a.atk * 2 * 1.2 - b.def
+a.mat * 2 * 1.2 - b.def
+a.mat * 2 * 1.2 - b.def
+a.luk * 2 * 1.2 - b.def
+a.mat * 2 * 2.4 - b.mdf
+a.mat * 2 * 5.0 - b.mdf
+a.mdf * 1.5
+b.mhp
+a.atk * 2 * 2.0 - b.def
+a.atk * 2 * 0.6 - b.def
+a.atk * 2 * 2.2 - b.def
+a.atk * 2 * 2.2 - b.def
+a.atk * 2 * 2.5 - b.def
+a.atk * 2 * 2.5 - b.def
+a.atk * 2 * 3.3 - b.def
+a.atk * 2 * 3.0 - b.def
+a.atk * 2 * 1.4 - b.def
+a.atk * 2 * 7.0 - b.def
+a.atk * 2 * 6.7 - b.def
+a.atk * 2 * 6.7 - b.def
+a.atk * 2 * 6.7 - b.def
+a.atk * 2 * 9.0 - b.def
+a.atk * 2 * 9.0 - b.def
+a.atk * 2 * 10.0 - b.def
+a.atk * 2 * 10.0 - b.def
+a.atk * 2 * 10.0 - b.def
+a.atk * 2 * 12.7
+a.atk * 2 * 12.7 - b.def
+a.atk * 2 * 12.7 - b.def
+a.atk * 2 * 18.7 - b.def
+a.atk * 2 * 7.0 - b.def
+a.atk * 2 * 32.0
+a.atk * 2 * 32.0
+a.atk * 2 * 48.0
+a.luk * 2 * 2.9 - (b.def + b.mdf) / 2
+a.luk * 2 * 3.3 - (b.def + b.mdf) / 2
+a.luk * 2 * 3.3 - (b.def + b.mdf) / 2
+a.luk * 2 * 3.3 - (b.def + b.mdf) / 2
+a.luk * 2 * 7.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.9 - (b.def + b.mdf) / 2
+a.luk * 2 * 1.3 - (b.def + b.mdf) / 2
+a.luk * 2 * 1.3 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.9 - (b.def + b.mdf) / 2
+a.luk * 2 * 5.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 5.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 3.3 - (b.def + b.mdf) / 2
+a.luk * 2 * 7.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 7.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 5.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 9.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 3.3 - (b.def + b.mdf) / 2
+a.luk * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.agi, a.luk].max * 2 * 3.3 - (b.def + b.mdf) / 2
+[a.agi, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 4.1 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 1.7 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.5 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.1 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.2 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 3.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.4 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 7.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 1.5 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 1.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 7.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 7.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 9.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.4 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.7 - (b.def + b.mdf) / 2
+a.luk * 2 * 3.3 - (b.def + b.mdf) / 2
+a.luk * 2 * 5.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 5.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 9.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 16.5 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.4 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.9 - (b.def + b.mdf) / 2
+a.luk * 2 * 3.8 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 2.4 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 3.3 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 5.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 1.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 9.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 9.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 2.4 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 3.3 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 5.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 12.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 2.4 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 3.3 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 5.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 7.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 12.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 5.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 3.3 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 5.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 1.1 - b.def
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 1.2 - b.def
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 1.2 - b.def
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 3.2 - b.def
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 9.0
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 9.0
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 1.5
+b.mhp
+b.mhp
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 2.0 - b.def
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 2.9 - b.def
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 1.7 - b.def
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 2.4 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 3.3 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 1.5 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 2.0 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 1.7 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 1.2 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 1.8 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 2.3 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 7.0 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 7.0 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 1.0
+[a.mat, a.luk].max * 2 * 2.4 - b.mdf
+[a.mat, a.luk].max * 2 * 3.3 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 7.0 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 7.0 - b.mdf
+[a.mat, a.luk].max * 2 * 2.9 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 9.0 - b.mdf
+[a.mat, a.luk].max * 2 * 19.0 - b.mdf
+[a.mat, a.luk].max * 2 * 2.9 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk].max * 2 * 2.0 - b.def
+[a.atk, a.luk].max * 2 * 2.9 - b.def
+[a.atk, a.luk].max * 2 * 5.0 - b.def
+[a.atk, a.luk].max * 2 * 9.0 - b.def
+a.luk * 2 * 2.0 - (b.def + b.mdf) / 2
+a.atk * 2 * 3.3 - b.def
+[a.mat, a.luk].max * 2 * 2.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.4 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 3.3 - (b.def + b.mdf) / 2
+a.mdf * 1.5
+a.mdf * 3.0
+b.mhp
+b.mhp
+b.mhp
+[a.atk, a.luk].max * 2 * 2.0 - b.def
+[a.atk, a.luk].max * 2 * 2.9 - b.def
+[a.atk, a.luk].max * 2 * 5.0 - b.def
+a.luk * 2 * 2.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.9 - (b.def + b.mdf) / 2
+a.luk * 2 * 5.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 7.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 12.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.9 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.9 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 3.3 - (b.def + b.mdf) / 2
+a.luk * 2 * 5.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 3.3 - (b.def + b.mdf) / 2
+a.luk * 2 * 5.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 12.0 - (b.def + b.mdf) / 2
+a.hp * 7.0
+a.hp * 15.0
+a.mdf * 1.5
+a.mdf * 3.0
+a.mdf * 1.5
+a.mdf * 3.0
+b.mhp / 5
+a.luk * 2 * 12.0 - (b.def + b.mdf) / 2
+(a.atk + a.agi) * 1.2 * 1.9 - b.def
+(a.atk + a.agi) * 1.2 * 3.3 - b.def
+(a.atk + a.agi) * 1.2 * 1.7 - b.def
+(a.atk + a.agi) * 1.2 * 3.3 - b.def
+(a.atk + a.agi) * 1.2 * 1.8 - b.def
+(a.atk + a.agi) * 1.2 * 7.0 - b.def
+(a.atk + a.agi) * 1.2 * 7.0 - b.def
+(a.atk + a.agi) * 1.2 * 3.0 - b.def
+a.atk * 2 * 2.4 - b.def
+a.atk * 2 * 2.0 - b.def
+a.atk * 2 * 2.4 - b.def
+a.atk * 2 * 2.0 - b.def
+a.atk * 2 * 1.8 - b.def
+a.atk * 2 * 3.3 - b.def
+a.atk * 2 * 3.5 - b.def
+a.atk * 2 * 15.0 - b.def
+a.atk * 2 * 2.1 - b.def
+a.atk * 2 * 1.4 - b.def
+a.atk * 2 * 1.2 - b.def
+a.atk * 2 * 5.0 - b.def
+a.atk * 2 * 9.0 - b.def
+a.atk * 2 * 1.7 - b.def
+a.atk * 2 * 1.8 - b.def
+a.atk * 2 * 2.9 - b.def
+[a.atk, a.luk].max * 2 * 1.1 - b.def
+[a.atk, a.luk].max * 2 * 1.2 - b.def
+[a.atk, a.luk].max * 2 * 1.0 - b.def
+[a.atk, a.luk].max * 2 * 0.9 - b.def
+[a.atk, a.luk].max * 2 * 1.0 - b.def
+[a.atk, a.luk].max * 2 * 9.0 - b.def
+a.mat * 2 * 7.0
+a.mat * 2 * 6.0
+a.atk * 2 * 2.4 - b.def
+a.atk * 2 * 5.0 - b.def
+a.atk * 2 * 9.0 - b.def
+a.atk * 2 * 19.0 - b.def
+[a.luk, a.agi].max * 2 * 2.0 - (b.def + b.mdf) / 2
+[a.luk, a.atk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.luk, a.atk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.luk, a.agi].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.luk, a.agi].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.atk, a.def].max * 2 * 2.0 - b.def
+[a.atk, a.def].max * 2 * 2.9 - b.def
+[a.atk, a.def].max * 2 * 5.0 - b.def
+[a.atk, a.def].max * 2 * 23.0 - b.def
+[a.atk, a.def].max * 2 * 2.9 - b.def
+[a.atk, a.def].max * 2 * 3.3 - b.def
+[a.atk, a.def].max * 2 * 5.0 - b.def
+[a.atk, a.def].max * 2 * 7.0 - b.def
+a.atk * 2 * 2.9 - b.def
+a.atk * 2 * 1.7 - b.def
+[a.luk, a.def].max * 2 * 0.7 - (b.def + b.mdf) / 2
+[a.atk, a.def].max * 2 * 0.9 - b.def
+[a.luk, a.def].max * 2 * 2.0 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.luk, a.mdf].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.luk, a.mdf].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.luk, a.mdf].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.luk, a.mdf].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.luk, a.mdf].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.luk, a.mdf].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 3.3 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 9.0 - (b.def + b.mdf) / 2
+a.mdf * 1.5
+a.mdf * 3.0
+a.mhp
+a.atk * 2 * 2.9 - b.def
+[a.atk, a.luk].max * 2 * 2.0 - b.def
+[a.atk, a.luk].max * 2 * 1.5 - b.def
+[a.atk, a.luk].max * 2 * 1.8 - b.def
+[a.atk, a.luk].max * 2 * 2.0 - b.def
+[a.atk, a.luk].max * 2 * 2.4 - b.def
+[a.atk, a.luk].max * 2 * 3.3 - b.def
+[a.atk, a.luk].max * 2 * 5.0 - b.def
+[a.atk, a.luk].max * 2 * 1.9 - b.def
+[a.atk, a.luk].max * 2 * 2.0 - b.def
+[a.atk, a.luk].max * 2 * 2.9 - b.def
+[a.atk, a.luk].max * 2 * 5.0 - b.def
+[a.atk, a.luk].max * 2 * 2.4 - b.def
+[a.atk, a.luk].max * 2 * 2.9 - b.def
+[a.atk, a.luk].max * 2 * 2.4 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 1.5 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 1.8 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 7.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 3.3 - b.def
+[a.mat, a.luk].max * 2 * 1.7 - b.def
+[a.mat, a.luk].max * 2 * 1.8 - b.def
+[a.mat, a.luk].max * 2 * 2.0 - b.def
+[a.mat, a.luk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.4 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 0.5 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 23.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 2.4 - b.def
+[a.atk, a.luk].max * 2 * 2.4 - b.def
+[a.atk, a.luk].max * 2 * 2.9 - b.def
+[a.atk, a.luk].max * 2 * 2.4 - b.def
+[a.atk, a.luk].max * 2 * 2.4 - b.def
+[a.atk, a.luk].max * 2 * 2.0 - b.def
+[a.atk, a.luk].max * 2 * 2.4 - b.def
+[a.atk, a.luk].max * 2 * 3.3 - b.def
+[a.atk, a.luk].max * 2 * 2.9 - b.def
+[a.atk, a.luk].max * 2 * 19.0
+[a.luk, a.agi].max * 2 * 2.0 - b.def
+[a.luk, a.agi].max * 2 * 3.3 - b.def
+[a.luk, a.agi].max * 2 * 5.0 - b.def
+[a.luk, a.agi].max * 2 * 7.0 - b.def
+[a.luk, a.agi].max * 2 * 12.0 - b.def
+[a.atk, a.agi].max * 2 * 3.3 - b.def
+[a.atk, a.agi].max * 2 * 7.0 - b.def
+[a.atk, a.agi].max * 2 * 19.0
+[a.atk, a.agi].max * 2 * 2.9 - b.def
+[a.atk, a.agi].max * 2 * 3.3 - b.def
+[a.atk, a.agi].max * 2 * 3.3 - b.def
+[a.luk, a.agi].max * 2 * 2.0 - (b.def + b.mdf) / 2
+[a.luk, a.agi].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.luk, a.agi].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.luk, a.agi].max * 2 * 7.0 - (b.def + b.mdf) / 2
+[a.atk, a.def].max * 2 * 2.0 - b.def
+[a.atk, a.def].max * 2 * 2.9 - b.def
+[a.atk, a.def].max * 2 * 5.0 - b.def
+[a.atk, a.def].max * 2 * 2.9 - b.def
+[a.atk, a.def].max * 2 * 2.4 - b.def
+[a.atk, a.def].max * 2 * 2.0 - b.def
+[a.atk, a.def].max * 2 * 7.0 - b.def
+[a.atk, a.def].max * 2 * 9.0 - b.def
+[a.atk, a.def].max * 2 * 12.0 - b.def
+[a.atk, a.def].max * 2 * 3.3 - b.def
+[a.atk, a.def].max * 2 * 5.0 - b.def
+[a.atk, a.def].max * 2 * 7.0 - b.def
+[a.atk, a.def].max * 2 * 7.0 - b.def
+[a.atk, a.def].max * 2 * 19.0 - b.def
+[a.atk, a.def].max * 2 * 2.0 - b.def
+[a.atk, a.def].max * 2 * 2.9 - b.def
+[a.atk, a.def].max * 2 * 7.0 - b.def
+[a.luk, a.def].max * 2 * 2.4 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 2.4 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 1.3 - b.def
+[a.luk, a.def].max * 2 * 0.9 - b.def
+[a.luk, a.def].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.atk, a.def].max * 2 * 23.0 - b.def
+[a.atk, a.def].max * 2 * 1.3 - b.def
+[a.atk, a.def].max * 2 * 1.6 - b.def
+[a.luk, a.def].max * 2 * 2.4 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 3.3 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 3.3 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 2.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 2.0 - b.def
+[a.atk, a.luk].max * 2 * 2.9 - b.def
+[a.atk, a.luk].max * 2 * 1.8 - b.def
+[a.mat, a.luk].max * 2 * 2.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 2.4 - b.def
+[a.atk, a.luk].max * 2 * 2.4 - b.def
+[a.mat, a.luk].max * 2 * 2.4 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 3.3 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 2.9 - b.def
+[a.atk, a.luk].max * 2 * 5.0 - b.def
+[a.mat, a.luk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+a.mdf * 1.5
+a.mdf * 3.0
+b.mhp
+b.mhp
+a.atk * 2 * 1.6 - b.def
+a.atk * 2 * 2.9 - b.def
+a.atk * 2 * 5.0 - b.def
+a.atk * 2 * 2.0 - b.def
+a.atk * 2 * 3.3 - b.def
+a.atk * 2 * 1.7 - b.def
+[a.atk, a.mat].max * 2 * 2.9 - b.def
+[a.atk, a.mat].max * 2 * 1.8 - b.def
+[a.mat, a.luk].max * 2 * 2.4 - b.mdf
+[a.mat, a.luk].max * 2 * 2.9 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 9.0 - b.mdf
+[a.atk, a.mat].max * 2 * 3.3 - b.mdf
+[a.atk, a.mat].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk].max * 2 * 1.2 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 2.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 2.0 - b.def
+[a.atk, a.luk].max * 2 * 2.9 - b.def
+a.luk * 2 * 2.4 - b.def
+a.luk * 2 * 2.4 - b.def
+[a.atk, a.luk].max * 2 * 2.9 - b.def
+[a.atk, a.luk].max * 2 * 2.4 - b.def
+[a.atk, a.luk].max * 2 * 2.9 - b.def
+[a.atk, a.luk].max * 2 * 2.4 - b.def
+[a.atk, a.luk].max * 2 * 1.2 - b.def
+[a.atk, a.luk].max * 2 * 1.8 - b.def
+a.hp * 5.0
+a.hp * 10.0
+a.hp * 300.0
+a.hp * 3000.0
+a.luk * 2 * 2.0 - b.def
+[a.mat, a.luk].max * 2 * 5.0 - b.def
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 7.0 - b.mdf
+a.luk * 2 * 3.3 - b.mdf
+a.luk * 2 * 5.0 - b.mdf
+a.luk * 2 * 3.3 - b.def
+a.luk * 2 * 5.0 - b.def
+[a.mat, a.luk].max * 2 * 12.0
+a.luk * 2 * 2.9 - (b.def + b.mdf) / 2
+a.luk * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.luk, a.agi].max * 2 * 2.0 - (b.def + b.mdf) / 2
+[a.luk, a.agi].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.luk, a.agi].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.luk, a.agi].max * 2 * 3.3 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 7.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 12.0 - (b.def + b.mdf) / 2
+a.mdf * 3
+a.mhp
+[a.mat, a.atk].max * 2 * 2.0 - b.mdf
+[a.mat, a.atk].max * 2 * 2.5 - b.mdf
+[a.mat, a.atk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 2.0 - b.mdf
+[a.mat, a.luk].max * 2 * 2.5 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.agi].max * 2 * 2.0 - b.mdf
+[a.mat, a.agi].max * 2 * 2.5 - b.mdf
+[a.mat, a.agi].max * 2 * 5.0 - b.mdf
+[a.mat, a.agi].max * 2 * 2.0 - b.mdf
+[a.mat, a.agi].max * 2 * 2.5 - b.mdf
+[a.mat, a.agi].max * 2 * 5.0 - b.mdf
+[a.mat, a.agi].max * 2 * 7.0 - b.mdf
+[a.mat, a.agi].max * 2 * 7.0 - b.mdf
+[a.mat, a.def].max * 2 * 2.0 - b.mdf
+[a.mat, a.def].max * 2 * 2.5 - b.mdf
+[a.mat, a.def].max * 2 * 5.0 - b.mdf
+[a.mat, a.def].max * 2 * 7.0 - b.mdf
+[a.mat, a.mdf].max * 2 * 2.0 - b.mdf
+[a.mat, a.mdf].max * 2 * 2.5 - b.mdf
+[a.mat, a.mdf].max * 2 * 5.0 - b.mdf
+[a.mat, a.mdf].max * 2 * 7.0 - b.mdf
+a.mat * 2 * 2.5 - b.mdf
+a.mat * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 2.5 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.def].max * 2 * 19.0 - b.mdf
+a.mdf * 1.5
+a.mdf * 3.0
+b.mhp
+a.mdf * 1.5
+a.mdf * 3.0
+b.mhp
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 2.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 2.9 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 5.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 7.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 9.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 12.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 2.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 3.3 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 7.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 9.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 12.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 2.9 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 5.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 2.9 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 7.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 7.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 12.0 - b.mdf
+a.mdf * 1.0
+a.mmp / 10
+[a.mat, a.agi].max * 2 * 5.0 - b.mdf
+[a.mat, a.def].max * 2 * 5.0 - b.mdf
+[a.mat, a.mdf].max * 2 * 5.0 - b.mdf
+[a.mat, a.atk].max * 2 * 5.0 - b.mdf
+a.mdf * 2 * 25.5 - b.mdf
+(a.atk + a.mat + a.def + a.mdf) / 4 * 16.5 - b.mdf
+a.hp * 5 / 6
+a.hp * 9 / 10
+a.hp * 99 / 100
+a.atk * 2 * 1.5 - b.def
+a.atk * 2 * 1.5 - b.def
+a.atk * 2 * 1.5 - b.def
+a.atk * 2 * 1.5 - b.def
+a.atk * 2 * 1.5 - b.def
+a.atk * 2 * 1.5 - b.def
+a.atk * 2 * 2.2 - b.def
+a.atk * 2 * 2.2 - b.def
+a.atk * 2 * 2.2 - b.def
+a.atk * 2 * 2.2 - b.def
+a.atk * 2 * 2.2 - b.def
+a.atk * 2 * 2.2 - b.def
+a.luk * 2 * 5.0
+a.luk * 2 * 5.0
+a.luk * 2 * 2.9
+a.luk * 2 * 2.9
+a.luk * 2 * 2.4
+a.luk * 2 * 3.3
+[a.atk, a.luk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.9 - (b.def + b.mdf) / 2
+a.luk * 2 * 5.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 2.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 1.8 - (b.def + b.mdf) / 2
+a.atk * 2 * 2.4 - b.def
+a.atk * 2 * 2.4 - b.mdf
+[a.atk, a.luk].max * 2 * 5.0 - b.def
+[a.mat, a.def].max * 2 * 2.5 - b.mdf
+a.luk * 2 * 1.6 - b.mdf
+a.luk * 2 * 2.0 - b.mdf
+a.luk * 2 * 3.0 - b.mdf
+a.luk * 2 * 5.0 - b.mdf
+a.luk * 2 * 1.6 - b.mdf
+a.luk * 2 * 2.0 - b.mdf
+a.luk * 2 * 3.0 - b.mdf
+a.luk * 2 * 5.0 - b.mdf
+a.luk * 2 * 1.6 - b.mdf
+a.luk * 2 * 2.0 - b.mdf
+a.luk * 2 * 3.0 - b.mdf
+a.luk * 2 * 5.0 - b.mdf
+a.luk * 2 * 1.6 - b.mdf
+a.luk * 2 * 3.0 - b.mdf
+a.luk * 2 * 1.6 - b.mdf
+a.luk * 2 * 3.0 - b.mdf
+a.luk * 2 * 1.6 - b.mdf
+a.luk * 2 * 3.0 - b.mdf
+a.luk * 1.5
+a.luk * 3.0
+a.luk * 1.5
+a.luk * 3.0
+b.hp * 4 / 5
+b.hp * 4 / 5
+b.mhp / 2
+a.luk * 2 * 1.5
+a.luk * 2 * 2.9 - b.mdf
+b.mmp / 2
+a.luk * 2 * 5.0 - b.mdf
+b.mhp
+b.mhp * 4 / 5
+a.luk * 2 * 1.0 - b.def
+a.luk * 2 * 2.5
+a.luk * 2 * 2.5
+a.luk * 2 * 2.5
+a.luk * 2 * 3.0 - b.def
+a.luk * 2 * 2.5
+a.luk * 2 * 2.5
+a.luk * 2 * 2.5
+a.luk * 2 * 5.0
+5000
+b.mhp
+b.mhp
+b.mhp / 5
+b.mhp / 2
+b.mhp
+b.mhp
+b.mhp
+b.mhp
+a.luk * 0.5
+a.luk - b.mdf
+b.mmp
+a.luk * 2 * 9.0
+a.luk * 2 * 0.7 - (b.def + b.mdf) / 2
+a.luk * 2 * 1.3 - (b.def + b.mdf) / 2
+a.luk * 2 * 1.5 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.0 - (b.def + b.mdf) / 2
+a.mhp / 10
+a.wp_atk * 2.0 - b.def
+a.atk * 2 * 1.0 - b.def
+a.mhp / 20
+a.luk * 2 * 1.5 - b.mdf
+a.mhp / 20
+a.luk * 2 * 1.5 - b.mdf
+a.luk * 2 * 1.5 - b.def
+a.mhp / 20
+b.mhp
+a.luk * 2 * 1.9 - b.mdf
+(a.mat + a.luk) * 2.0 - b.mdf
+a.atk * 2 * 1.0 - b.def
+a.mat * 2 * 1.5 - b.mdf
+a.luk * 2 * 1.0 - b.def
+a.luk * 2 * 1.2 - b.def
+a.mhp / 10
+[a.luk, a.def].max * 2 * 0.9 - b.def
+a.luk * 2 * 1.5 - b.mdf
+a.atk * 2 * 1.5 - b.def
+[a.atk, a.mat].max * 2 * 19.0
+a.atk * 2 * 1.7 - b.def
+a.atk * 2 * 2.4 - b.def
+a.atk * 2 * 2.0 - b.mdf
+a.atk * 2 * 2.0 - b.mdf
+a.atk * 2 * 9.0 - b.def
+a.atk * 2 * 12.0 - b.def
+a.atk * 2 * 19.0 - b.def
+(a.atk + a.agi) * 1.2 * 7.0 - b.def
+(a.atk + a.mat) * 1.2 * 7.0 - b.def
+a.atk * 2 * 1.2 * 9.0 - b.def
+[a.mat, a.agi].max * 2 * 7.0 - b.mdf
+(a.atk + a.agi) * 1.2 * 1.7 - b.def
+(a.atk + a.agi) * 1.2 * 15.0
+(a.atk + a.agi) * 1.2 * 23.0 - b.def
+(a.atk + a.luk) * 1.2 * 5.0 - b.mdf
+(a.atk + a.luk) * 1.2 * 5.0 - b.mdf
+(a.atk + a.luk) * 1.2 * 5.0 - b.mdf
+(a.atk + a.luk) * 1.2 * 1.4 - b.def
+(a.atk + a.luk) * 1.2 * 7.0
+(a.atk + a.luk) * 1.2 * 1.4 - b.def
+(a.atk + a.luk) * 1.2 * 5.0 - b.mdf
+[a.mat, a.mdf].max * 2 * 7.0 - b.mdf
+(a.atk + a.luk) * 1.2 * 19.0 - b.def
+[a.mat, a.atk].max * 2 * 7.0 - b.mdf
+(a.atk + a.agi) * 1.2 * 2.3 - b.def
+[a.agi, a.mdf].max * 2 * 7.0
+[a.agi, a.mdf].max * 2 * 3.0
+[a.agi, a.mdf].max * 2 * 23.0
+a.luk * 2 * 7.0
+a.luk * 2 * 4.0
+a.luk * 2 * 9.0
+a.luk * 2 * 12.0
+a.luk * 2 * 23.0
+a.luk * 2 * 19.0
+a.atk * 2 * 2.9
+[a.mat, a.def].max * 2 * 7.0 - b.mdf
+a.atk * 2 * 5.0 - b.def / 2
+a.atk * 2 * 7.0 - b.def / 2
+(a.atk + a.mat) * 1.2 * 12.0 - b.def
+(a.atk + a.mat) * 1.2 * 12.0 - b.def
+a.mat * 2 * 1.6 - b.mdf
+a.mat * 2 * 1.6 - b.mdf
+a.mat * 2 * 1.6 - b.mdf
+a.mat * 2 * 1.6 - b.mdf
+a.mdf * 1.5
+a.mat * 2 * 7.0 - b.mdf
+a.mat * 2 * 9.0 - b.mdf
+a.mat * 2 * 19.0 - b.mdf
+a.mat * 2 * 2.5 - b.mdf
+a.mat * 2 * 12.0 - b.mdf
+a.mat * 2 * 12.0 - b.mdf
+(a.atk + a.luk) * 1.2 * 1.0 - b.def
+(a.atk + a.luk) * 1.2 * 1.5 - b.def
+(a.atk + a.luk) * 1.2 * 9.0 - b.def
+(a.atk + a.luk) * 1.2 * 9.0 - b.def
+(a.atk + a.luk) * 1.2 * 7.0 - b.def
+(a.atk + a.luk) * 1.2 * 7.0 - b.mdf
+a.atk * 2 * 2.3 - b.def / 2
+(a.atk + a.mat) * 1.2 * 12.0 - b.def
+(a.atk + a.mat) * 1.2 * 12.0 - b.def / 2
+a.luk * 2 * 1.7 - b.def
+a.mat * 2 * 5.0 - b.mdf
+a.mat * 2 * 7.0 - b.mdf
+a.luk * 2 * 19.0 - b.def
+a.luk * 2 * 12.0 - b.def
+a.mat * 2 * 2.5
+a.mat * 2 * 6.0
+a.mat * 2 * 6.0
+a.luk * 2 * 3.0 - b.mdf
+a.luk * 2 * 3.0 - b.mdf
+a.luk * 2 * 3.0 - b.mdf
+a.luk * 2 * 3.0 - b.mdf
+a.luk * 2 * 3.0 - b.mdf
+a.luk * 2 * 3.0 - b.mdf
+(a.atk + a.agi) * 1.2 * 11.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.wp_atk - b.def / 2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 0.6
+a.wp_atk - b.def / 2
+a.wp_atk - b.def / 2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+[a.mat, a.luk].max * 2 * 2.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.wp_atk - b.def / 2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.atk * 2 * 0.5
+a.luk * 2 * 0.6
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 0.6
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.atk * 2 * 1.1 - b.def / 2
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6
+a.luk * 2 * 0.6
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.agi * 2 * 0.9 - b.def / 2
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 0.5
+a.luk * 2 * 0.6
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.atk * 2 * 0.6
+a.luk * 2 * 0.6
+a.mat * 2 * 1.1 - b.mdf / 2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6
+a.luk * 2 * 0.6
+a.atk * 2 * 1.0 - b.def / 2
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.atk * 2 * 1.1 - b.def / 2
+a.atk * 2 * 0.9 - b.def / 2
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6
+a.luk * 2 * 0.6
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.atk * 2 * 0.9 - (b.def + b.mdf) / 4
+a.atk * 2 * 0.8 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.6
+a.atk * 2 * 0.9 - (b.def + b.mdf) / 4
+a.atk * 2 * 0.7 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.7 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.6
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 0.6
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.7 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.6
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6
+a.luk * 2 * 0.6
+a.luk * 2 * 0.6
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6
+a.luk * 2 * 0.5
+a.luk * 2 * 0.6
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.atk * 2 * 0.5
+a.luk * 2 * 0.6
+a.luk * 2 * 1.1 - b.def / 2
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.9 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.7 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.wp_atk - b.def / 2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.7 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.7 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6
+a.luk * 2 * 0.5
+a.luk * 2 * 0.6
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6
+[a.mat, a.agi].max * 2 * 1.0 - (b.def + b.mdf) / 4
+[a.mat, a.agi].max * 2 * 1.0 - (b.def + b.mdf) / 4
+[a.mat, a.agi].max * 2 * 0.9 - (b.def + b.mdf) / 4
+[a.mat, a.agi].max * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 0.6
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.atk * 2 * 1.1 - b.def / 2
+a.luk * 2 * 0.6
+a.luk * 2 * 0.6
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - b.def / 2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 0.6
+a.luk * 2 * 0.6
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.atk * 2 * 1.1 - b.def / 2
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6
+a.luk * 2 * 0.6
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6
+a.luk * 2 * 0.6
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - b.def / 2
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 0.6
+a.luk * 2 * 1.1 - b.def / 2
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.atk * 2 * 0.5
+a.atk * 2 * 1.1 - b.def / 2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.8 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.atk * 2 * 1.1 - b.def / 2
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 0.6
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.3 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.6
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.3 - b.mdf / 2
+a.luk * 2 * 1.3 - b.mdf / 2
+a.luk * 2 * 1.3 - b.mdf / 2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - b.def / 2
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6
+a.luk * 2 * 0.6
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.6
+a.luk * 2 * 0.6
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6
+a.luk * 2 * 0.6
+a.luk * 2 * 0.6
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6
+a.luk * 2 * 0.6
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6
+a.luk * 2 * 0.6
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.atk * 2 * 0.5
+a.luk * 2 * 0.5
+a.atk * 2 * 0.6
+a.luk * 2 * 1.1 - b.def / 2
+b.mhp * 0.2
+b.mhp * 0.3
+b.mhp * 0.3
+b.mhp * 0.2
+b.mhp * 0.2
+b.mhp * 0.3
+b.mhp * 0.3
+b.mhp * 0.3
+b.mhp * 0.3
+b.mhp * 0.2
+b.mhp * 0.2
+b.mhp * 0.4
+b.mhp * 0.2
+b.mhp * 0.3
+b.mhp * 0.2
+b.mhp * 0.3
+b.mhp * 0.3
+b.mhp * 0.07
+b.mhp * 0.2
+b.mhp * 0.4
+b.mhp * 0.2
+b.mhp * 0.3
+b.mhp * 0.4
+b.mhp * 0.4
+b.mhp * 0.3
+b.mhp * 0.4
+b.mhp * 0.2
+b.mhp * 0.3
+b.mhp * 0.1
+b.mhp * 0.2
+b.mhp * 0.1
+b.mhp * 0.2
+b.mhp * 0.3
+b.mhp * 0.4
+b.mhp * 0.4
+b.mhp * 0.2
+b.mhp * 0.4
+b.mhp * 0.2
+b.mhp * 0.4
+b.mhp * 0.1
+b.mhp * 0.2
+b.mhp * 0.3
+b.mhp * 0.4
+b.mhp * 0.04
+b.mhp * 0.2
+b.mhp * 0.2
+b.mhp * 0.3
+b.mhp * 0.4
+b.mhp * 0.4
+b.mhp * 0.2
+b.mhp * 0.3
+b.mhp * 0.2
+b.mhp * 0.3
+b.mhp * 0.2
+b.mhp * 0.3
+b.mhp * 0.2
+b.mhp * 0.3
+b.mhp * 0.4
+b.mhp * 0.4
+b.mhp * 0.4
+b.mhp * 0.2
+b.mhp * 0.4
+b.mhp * 0.2
+b.mhp * 0.3
+b.mhp * 0.2
+b.mhp * 0.3
+b.mhp * 0.4
+b.mhp * 0.2
+b.mhp * 0.2
+b.mhp * 0.4
+b.mhp * 0.3
+b.mhp * 0.3
+b.mhp * 0.2
+b.mhp * 0.2
+b.mhp * 0.8
+b.mhp * 0.5
+a.mat * 2 * 1.4 - b.mdf / 2
+a.luk * 2 * 1.6 - (b.def + b.mdf) / 4
+b.hp - 1
+a.luk * 2 * 1.4 - b.mdf / 2
+a.luk * 2 * 1.4 - b.mdf / 2
+a.luk * 2 * 1.4 - b.mdf / 2
+a.atk * 2 * 1.5 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.atk * 2 * 1.5 - b.def / 2
+a.luk * 2 * 1.5 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 0.7 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.3 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.7 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.7 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.atk * 2 * 1.3 - b.def / 2
+a.luk * 2 * 0.8 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.7 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.3 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.atk * 2 * 1.3 - b.def / 2
+a.atk * 2 * 1.0 - b.def / 2
+a.luk * 2 * 1.3 - b.mdf / 2
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.3 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.3 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - b.mdf / 2
+a.luk * 2 * 1.1 - b.mdf / 2
+a.luk * 2 * 1.1 - b.mdf / 2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 0.4 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.7 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.7 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.atk * 2 * 0.5
+a.atk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.3
+a.luk * 2 * 0.3
+a.luk * 2 * 0.3
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.atk * 2 * 1.2 - b.def / 2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.3 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 0.5 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.1
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.atk * 2 * 1.3 - b.def / 2
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 0.2
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.atk * 2 * 0.5
+a.luk * 2 * 0.2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.3 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.3 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.7 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.6 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 0.8 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.atk * 2 * 1.3 - b.def / 2
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.atk * 2 * 1.1 - b.def / 2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.atk * 2 * 1.3 - b.def / 2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.atk * 2 * 0.9 - b.def / 2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.atk * 2 * 1.0 - b.def / 2
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.atk * 2 * 1.1 - b.def / 2
+a.atk * 2 * 1.1 - b.def / 2
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.8 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.8 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.7 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.8 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.8 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.8 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.8 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.8 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.4
+a.luk * 2 * 0.7
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.8 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.8 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.3
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 0.3
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.4 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.4 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.3 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.3 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.atk * 2 * 1.2 - b.def / 2
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.2 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.atk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.8 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.8 - (b.def + b.mdf) / 4
+a.atk * 2 * 1.2 - b.def / 2
+a.luk * 2 * 1.3 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.luk * 2 * 0.5
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.4 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.1 - (b.def + b.mdf) / 4
+a.luk * 2 * 1.0 - (b.def + b.mdf) / 4
+a.luk * 2 * 0.5
+a.atk * 2 * 5.0 - b.def
+a.atk * 2 * 7.0 - b.def
+a.mhp / 2.0
+a.mhp
+[a.mat, a.luk].max * 2 * 1.5
+a.mdf * 1.5
+a.mdf * 3.0
+[a.mat, a.luk].max * 2 * 10.0
+[a.mat, a.luk].max * 2 * 9.0
+a.mdf * 1.5
+a.mat * 2 * 20.0
+[a.mat, a.luk].max * 2 * 7.0 - (b.def + b.mdf) / 2
+a.mat * 2 * 9.0
+a.mat * 2 * 9.0
+a.mat * 2 * 12.0
+(a.atk + a.agi) * 1.2 * 3.4 - b.def
+(a.atk + a.agi) * 1.2 * 4.7 - b.def
+[a.mat, a.luk].max * 2 * 7.0 - b.mdf
+[a.mat, a.luk].max * 2 * 7.0 - b.mdf
+[a.mat, a.luk].max * 2 * 7.0 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0
+[a.mat, a.luk].max * 2 * 3.3 - (b.def + b.mdf) / 2
+a.mat * 2 * 7.0
+a.luk * 2.0
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+a.atk * 2 * 1.4 - b.def
+a.luk * 2 * 3.3 - (b.def + b.mdf) / 2
+a.atk * 2 * 4.7 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+a.mat * 2 * 7.0
+[a.mat, a.luk].max * 2 * 1.2
+[a.mat, a.luk].max * 2 * 5.0
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 1.8 - b.mdf
+b.mhp
+[a.mat, a.luk].max * 2 * 1.8 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 9.0 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.mat, a.luk].max * 2 * 7.0 - b.mdf
+a.luk * 2 * 1.7 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.4 - (b.def + b.mdf) / 2
+a.luk * 2 * 3.3 - (b.def + b.mdf) / 2
+a.luk * 2 * 5.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.4 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.9 - (b.def + b.mdf) / 2
+a.luk * 2 * 3.3 - (b.def + b.mdf) / 2
+a.luk * 2 * 5.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 5.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.4 - (b.def + b.mdf) / 2
+a.luk * 2 * 3.3 - (b.def + b.mdf) / 2
+a.luk * 2 * 5.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 7.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 7.0 - (b.def + b.mdf) / 2
+[a.atk, a.mat].max * 2 * 0.7 - b.def
+a.luk * 2 * 5.0
+(a.atk + a.agi) * 1.2 * 4.7 - b.def
+[a.mat, a.luk].max * 2 * 7.0
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+a.luk * 2 * 7.0 - (b.def + b.mdf) / 2
+[a.mat, a.mdf].max * 2 * 7.0 - b.mdf
+a.mat * 2 * 0.2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 7.0 - b.mdf
+(a.atk + a.agi) * 1.2 * 6.0 - b.def
+a.luk * 2 * 5.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.9 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.9 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.9 - (b.def + b.mdf) / 2
+a.luk * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 1.5
+[a.mat, a.luk].max * 2 * 1.5
+[a.mat, a.luk].max * 2 * 3.0
+a.wp_atk * 3.0 - b.def
+[a.mat, a.luk].max * 2 * 7.0 - b.mdf
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+a.atk * 2 * 1.5
+[a.mat, a.luk].max * 2 * 7.0 - b.def
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+a.atk * 2 * 2.9
+a.luk * 2 * 1.5 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 3.3 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 3.3 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 3.3 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 3.3 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 3.3 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 3.3 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 2.9 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 0.9 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 3.3 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 3.3 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 3.3 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 3.3 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 1.8 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 1.5 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 3.3 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 1.3 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 1.3 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 2.4 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 3.3 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 1.2 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 0.9 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 5.0
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.def
+b.mhp * 4 / 5
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 5.0
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.def
+a.mdf * 3.0
+a.mdf * 3.0
+[a.atk, a.luk, a.mat].max * 2 * 3.3 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.def
+1000
+[a.atk, a.luk, a.mat].max * 2 * 1.8 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 1.8 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 1.7 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 3.3 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.mdf
+$game_library.actor_down(a.id) * 100
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 7.0
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 5.0
+[a.atk, a.luk, a.mat].max * 2 * 7.0
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 1.8 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 3.3 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 3.3 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 7.0
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 1.3 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - (b.def + b.mdf) / 2
+a.mhp - a.hp
+a.hp
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 1.2 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 0.9 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 1.2 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 7.0
+[a.atk, a.luk, a.mat].max * 2 * 1.5 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 7.0
+[a.atk, a.luk, a.mat].max * 2 * 1.5
+[a.atk, a.luk, a.mat].max * 2 * 7.0
+[a.atk, a.luk, a.mat].max * 2 * 9.0
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 9.0
+[a.atk, a.luk, a.mat].max * 2 * 9.0
+[a.atk, a.luk, a.mat].max * 2 * 12.0
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 2.3 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 12.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 3.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 12.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 12.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 12.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 9.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 9.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 9.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 7.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 9.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 2.3 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 1.8 - (b.def + b.mdf) / 2
+a.mdf * 3.0
+[a.atk, a.luk, a.mat].max * 2 * 3.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 12.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 12.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 12.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 12.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk, a.mat].max * 2 * 7.7
+[a.atk, a.luk, a.mat].max * 2 * 19.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 19.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 4.8 - b.def
+[a.atk, a.luk, a.mat].max * 2 * 19.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 23.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 39.0
+[a.atk, a.luk, a.mat].max * 2 * 19.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 19.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 19.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 19.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 19.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 19.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 23.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 23.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 19.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 19.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 19.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 23.0 - b.mdf
+[a.atk, a.luk, a.mat].max * 2 * 28.0
+[a.atk, a.luk, a.mat].max * 2 * 39.0
+[a.atk, a.luk, a.mat].max * 2 * 6.0
+[a.atk, a.luk, a.mat].max * 2 * 23.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.0 - b.def
+[a.mat, a.luk].max * 2 * 2.0 - b.def
+[a.mat, a.luk].max * 2 * 1.5 - b.def
+[a.mat, a.luk].max * 2 * 2.9 - b.def
+[a.mat, a.luk].max * 2 * 2.0 - b.def
+[a.mat, a.luk].max * 2 * 1.8 - b.def
+[a.mat, a.luk].max * 2 * 3.3 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.9 - b.mdf
+[a.mat, a.luk].max * 2 * 3.5
+[a.mat, a.luk].max * 2 * 2.9 - b.def
+[a.mat, a.luk].max * 2 * 2.9 - b.def
+[a.mat, a.luk].max * 2 * 3.3 - b.def
+[a.mat, a.luk].max * 2 * 1.8 - b.def / 2
+[a.mat, a.luk].max * 2 * 5.0 - b.def
+[a.mat, a.luk].max * 2 * 1.8 - b.def
+[a.mat, a.luk].max * 2 * 5.0 - b.mdf
+[a.atk, a.luk].max * 2 * 1.6 - b.def
+[a.atk, a.luk].max * 2 * 1.6 - b.def
+[a.mat, a.luk].max * 2 * 9.0 - b.mdf
+[a.mat, a.luk].max * 2 * 7.0 - b.def
+[a.mat, a.luk].max * 2 * 3.3 - b.def
+[a.mat, a.luk].max * 2 * 7.0 - b.def
+[a.mat, a.luk].max * 2 * 2.4 - b.def
+[a.mat, a.luk].max * 2 * 5.0 - b.def
+[a.mat, a.luk].max * 2 * 5.3
+[a.mat, a.luk].max * 2 * 21.0
+[a.mat, a.luk].max * 2 * 2.2
+[a.mat, a.luk].max * 2 * 25.5
+[a.mat, a.luk].max * 2 * 23.0 - b.def
+[a.mat, a.luk].max * 2 * 19.0 - b.mdf
+[a.mat, a.luk].max * 2 * 19.0 - b.mdf
+[a.mat, a.luk].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 23.0 - b.def
+[a.mat, a.luk].max * 2 * 23.0
+[a.mat, a.luk].max * 2 * 19.0 - b.def
+[a.mat, a.luk].max * 2 * 7.0 - b.def
+[a.mat, a.luk].max * 2 * 72.0
+[a.mat, a.luk].max * 2 * 23.0 - b.def
+[a.mat, a.luk].max * 2 * 23.0
+a.atk * 2 * 3.3 - b.def
+a.mhp / 3
+a.atk * 2 * 8.0 - b.def
+(a.atk + a.agi) * 1.2 * 1.0 - b.def
+(a.atk + a.agi) * 1.2 * 1.6 - b.def
+(a.atk + a.agi) * 1.2 * 1.6 - b.def
+(a.atk + a.agi) * 1.2 * 3.4 - b.def
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 2.0 - b.def
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 2.4 - b.def
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 3.3 - b.def
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 7.0 - b.def
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 7.0 - b.def
+[a.atk, a.def].max * 2 * 2.0 - b.def
+[a.atk, a.def].max * 2 * 2.9 - b.def
+[a.atk, a.def].max * 2 * 7.0 - b.def
+a.mat * 2 * 3.3 - b.mdf
+b.mhp
+b.mhp
+b.mhp
+b.mhp
+b.mhp
+b.mhp
+b.mhp / 5
+b.mhp
+b.mhp
+b.mhp
+b.mhp
+b.mhp
+(a.atk + a.luk) * 1.2 * 3.4 - b.def
+(a.atk + a.luk) * 1.2 * 8.0 - b.def
+a.luk * 2 * 8.0 - b.def
+a.mdf * 1.0
+[a.luk, a.agi].max * 2 * 7.0 - b.def
+a.atk * 2 * 3.0 - b.def
+a.mat * 2 * 3.0 - b.def
+a.mdf * 1.0
+a.luk * 2 * 3.0 - b.def
+a.atk * 2 * 5.0 - b.def
+[a.mat, a.luk].max * 2 * 7.0 - b.mdf
+a.luk * 2 * 23.0 - b.def
+a.luk * 2 * 2.4 - b.def
+a.luk * 2 * 3.3 - b.def
+a.luk * 2 * 7.0 - b.def
+a.luk * 2 * 19.0 - b.def
+a.luk * 2 * 2.9 - b.def
+a.luk * 2 * 5.0 - b.def
+a.luk * 2 * 9.0 - b.def
+a.luk * 2 * 23.0 - b.def
+a.luk * 2 * 2.9 - b.def
+a.luk * 2 * 3.3 - b.def
+a.luk * 2 * 5.0 - b.def
+a.luk * 2 * 19.0 - b.def
+[a.atk, a.mat].max * 2 * 21.0
+a.mat * 2 * 7.0 - b.mdf
+a.luk * 2 * 1.0 - b.def
+a.luk * 2 * 2.0 - b.def
+a.luk * 2 * 2.0 - b.def
+a.luk * 2 * 2.0 - b.def
+a.luk * 2 * 1.0 - b.def
+a.luk * 2 * 3.7 - b.def
+a.luk * 2 * 3.0 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 16.5 - b.def
+a.luk * 2 * 6.0 - b.def
+[a.atk, a.luk].max * 2 * 6.0 - b.def
+a.mdf * 3.0
+a.mdf * 3.0
+b.mhp
+b.mhp
+b.mhp
+[a.atk, a.luk].max * 2 * 500
+[a.atk, a.mat].max * 2 * 19.0
+a.atk * 2 * 12.0 - b.def
+(a.atk + a.agi) * 1.2 * 10.0
+[a.atk, a.def].max * 2 * 19.0 - b.def
+a.luk * 2 * 23.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 23.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 15.3 - b.mdf
+[a.atk, a.mat, a.luk].max * 2 * 28.0
+[a.luk, a.mdf].max * 2 * 28.0
+[a.atk, a.agi, a.luk].max * 2 * 22.0 - b.def
+(a.atk + a.luk) * 1.2 * 8.0 - b.def
+(a.atk + a.luk) * 1.2 * 12.7 - b.def
+(a.atk + a.luk) * 1.2 * 12.7 - b.def
+(a.atk + a.luk) * 1.2 * 3.2 - b.def
+a.atk * 2 * 6.0 - b.def
+a.atk * 2 * 8.0 - b.def
+a.atk * 2 * 2.0 - b.def
+a.atk * 2 * 1.6 - b.def
+a.atk * 2 * 8.0 - b.def
+a.atk * 2 * 1.2 - b.def
+a.atk * 2 * 12.7 - b.def
+a.atk * 2 * 3.2 - b.def
+a.atk * 2 * 5.1 - b.def
+a.atk * 2 * 12.7 - b.def
+a.atk * 2 * 8.0 - b.def
+a.atk * 2 * 15.3 - b.def
+a.atk * 2 * 22.0
+a.atk * 2 * 26.0
+a.atk * 2 * 18.7 + 30000000
+a.atk * 2 * 48.0
+(a.atk + a.agi) * 1.2 * 1.4 - b.def
+(a.atk + a.agi) * 1.2 * 1.2 - b.def
+(a.atk + a.agi) * 1.2 * 1.4 - b.def
+(a.atk + a.agi) * 1.2 * 2.2
+(a.atk + a.agi) * 1.2 * 3.7 - b.def
+(a.atk + a.agi) * 1.2 * 2.6
+(a.atk + a.agi) * 1.2 * 2.0 - b.def
+(a.atk + a.agi) * 1.2 * 3.2 - b.def
+(a.atk + a.agi) * 1.2 * 4.4 - b.def
+(a.atk + a.luk) * 1.2 * 0.6 - b.def
+(a.atk + a.luk) * 1.2 * 6.0 - b.def
+(a.atk + a.luk) * 1.2 * 1.4 - b.def
+(a.atk + a.luk) * 1.2 * 2.7 - b.def
+(a.atk + a.luk) * 1.2 * 12.7 - b.def
+(a.atk + a.luk) * 1.2 * 15.3 - b.def
+(a.atk + a.agi) * 1.2 * 1.4 - b.def
+(a.atk + a.agi) * 1.2 * 1.4 - b.def
+(a.atk + a.agi) * 1.2 * 6.0 - b.def
+(a.atk + a.agi) * 1.2 * 6.0
+(a.atk + a.agi) * 1.2 * 10.0
+(a.atk + a.agi) * 1.2 * 2.2 - b.def
+(a.atk + a.agi) * 1.2 * 12.7
+(a.atk + a.agi) * 1.2 * 12.7 - b.def
+(a.atk + a.agi) * 1.2 * 12.7
+(a.atk + a.agi) * 1.2 * 4.0 - b.def
+a.atk * 2 * 1.8
+a.atk * 2 * 12.7
+a.atk * 2 * 15.3
+a.atk * 2 * 4.7
+a.atk * 2 * 2.0 - b.def / 2
+a.atk * 2 * 10.0
+a.atk * 2 * 12.7
+a.atk * 2 * 15.3 - b.def / 2
+a.atk * 2 * 2.6 - b.def / 2
+[a.atk, a.mat].max * 2 * 10.0 - b.def
+[a.atk, a.mat].max * 2 * 15.3 - b.def
+[a.atk, a.mat].max * 2 * 3.9 - b.def
+[a.atk, a.mat].max * 2 * 15.3 - b.def
+[a.atk, a.mat].max * 2 * 18.7
+[a.atk, a.mat].max * 2 * 22.0
+(a.atk + a.luk) * 1.2 * 6.0 - b.def
+(a.atk + a.luk) * 1.2 * 6.0 - b.def
+(a.atk + a.luk) * 1.2 * 8.0 - b.def
+(a.atk + a.luk) * 1.2 * 8.0 - b.def
+(a.atk + a.luk) * 1.2 * 8.0 - b.def
+(a.atk + a.luk) * 1.2 * 10.0 - b.def
+(a.atk + a.luk) * 1.2 * 2.2 - b.def
+(a.atk + a.luk) * 1.2 * 12.7 - b.def
+(a.atk + a.luk) * 1.2 * 15.3 - b.def
+(a.atk + a.luk) * 1.2 * 15.3 - b.def
+(a.atk + a.luk) * 1.2 * 12.7 - b.def
+(a.atk + a.luk) * 1.2 * 3.9 - b.def
+(a.atk + a.luk) * 1.2 * 12.7 - b.def
+(a.atk + a.luk) * 1.2 * 3.2 - b.def
+(a.atk + a.luk) * 1.2 * 4.4 - b.def
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+(a.atk + a.luk) * 1.2 * 4.7 - b.def
+(a.atk + a.luk) * 1.2 * 1.0 - b.def
+(a.atk + a.luk) * 1.2 * 6.0 - b.def
+(a.atk + a.luk) * 1.2 * 6.0 - b.def
+(a.atk + a.luk) * 1.2 * 2.8 - b.def
+(a.atk + a.luk) * 1.2 * 8.0 - b.def
+(a.atk + a.luk) * 1.2 * 12.7 - b.def
+(a.atk + a.luk) * 1.2 * 3.2 - b.def
+(a.atk + a.luk) * 1.2 * 3.3 - b.def
+a.def * 2 * 1.3 - b.def
+a.def * 2 * 2.2 - b.def
+a.def * 2 * 1.2 - b.def
+a.def * 2 * 6.0 - b.def
+a.def * 2 * 3.2 - b.def
+a.def * 1.5
+b.mhp
+(a.luk + a.agi) * 1.2 * 15.3 - b.def
+(a.luk + a.agi) * 1.2 * 15.3 - b.def
+(a.luk + a.agi) * 1.2 * 2.1 - b.def
+a.luk * 2 * 1.4 - b.def
+a.luk * 2 * 2.0 - b.def
+a.luk * 2 * 8.0 - b.def
+a.luk * 2 * 2.8 - b.def
+a.luk * 2 * 12.7 - b.def
+a.luk * 2 * 15.3 - b.def
+a.luk * 2 * 28.0
+a.luk * 2 * 2.6 - b.def
+a.luk * 2 * 1.7 - b.def
+(a.atk + a.agi) * 1.2 * 6.0 - b.def
+(a.atk + a.agi) * 1.2 * 2.0 - b.def
+(a.atk + a.agi) * 1.2 * 6.0 - b.def
+(a.atk + a.agi) * 1.2 * 2.0 - b.def
+(a.atk + a.agi) * 1.2 * 2.0 - b.def
+(a.atk + a.agi) * 1.2 * 2.0 - b.def
+(a.atk + a.agi) * 1.2 * 2.0 - b.def
+(a.atk + a.agi) * 1.2 * 3.7 - b.def
+(a.atk + a.agi) * 1.2 * 2.6 - b.def
+(a.atk + a.agi) * 1.2 * 12.7 - b.def
+(a.atk + a.agi) * 1.2 * 12.7 - b.def
+(a.atk + a.agi) * 1.2 * 15.3 - b.def
+(a.atk + a.agi) * 1.2 * 2.6 - b.def
+(a.atk + a.agi) * 1.2 * 1.7 - b.def
+(a.atk + a.agi) * 1.2 * 3.3 - b.def
+(a.atk + a.agi) * 1.2 * 15.3 - b.def
+(a.atk + a.agi) * 1.2 * 12.7
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 22.0 + 30000000
+[a.luk, a.agi].max * 2 * 3.9 - (b.def + b.mdf) / 2
+a.mdf * 3.0
+a.mdf * 3.0
+a.mdf * 1.5
+b.mhp
+[a.mat, a.mdf].max * 2 * 12.0 - b.mdf
+[a.mat, a.mdf].max * 2 * 15.0 - b.mdf
+[a.mat, a.mdf].max * 2 * 19.0 - b.mdf
+[a.mat, a.mdf].max * 2 * 23.0 - b.mdf
+[a.mat, a.mdf].max * 2 * 9.0 - b.mdf
+a.mat * 2 * 19.0 - b.mdf
+a.mat * 2 * 9.0 - b.mdf
+a.mat * 2 * 2.0 - b.mdf
+a.mat * 2 * 9.0 - b.mdf
+a.mat * 2 * 2.0 - b.mdf
+a.mat * 2 * 9.0 - b.mdf
+a.mat * 2 * 2.0 - b.mdf
+a.mat * 2 * 9.0 - b.mdf
+a.mat * 2 * 19.0 - b.mdf
+a.mat * 2 * 9.0 - b.mdf
+a.mat * 2 * 19.0 - b.mdf
+a.mat * 2 * 9.0 - b.mdf
+a.mat * 2 * 19.0 - b.mdf
+a.mat * 2 * 12.0 - b.mdf
+a.mat * 2 * 15.0 - b.mdf
+a.mat * 2 * 15.0
+a.mat * 2 * 19.0 - b.mdf
+a.mat * 2 * 19.0 - b.mdf
+a.mat * 2 * 23.0 - b.mdf
+a.mp_cost * 10000
+a.mat * 2 * 2.5 - (b.def + b.mdf) / 2
+a.mat * 2 * 2.5 - (b.def + b.mdf) / 2
+a.mat * 2 * 3.0 - (b.def + b.mdf) / 2
+a.mat * 2 * 5.0 - (b.def + b.mdf) / 2
+a.mat * 2 * 12.0 - (b.def + b.mdf) / 2
+a.mat * 2 * 19.0 - (b.def + b.mdf) / 2
+a.mat * 2 * 3.2 - (b.def + b.mdf) / 2
+a.mat * 2 * 23.0 - (b.def + b.mdf) / 2
+a.mdf * 2.0
+b.hp * 3 / 4
+a.mat * 2 * 5.0
+a.mat * 2 * 3.0
+a.mat * 2 * 12.0 - b.mdf
+a.mat * 2 * 12.0
+a.mat * 2 * 9.0
+a.mat * 2 * 12.0
+a.mat * 2 * 15.0
+a.mat * 2 * 19.0
+a.mat * 2 * 23.0
+a.mat * 2 * 23.0
+a.mat * 2 * 23.0
+a.mat * 2 * 5.8
+a.mat * 2 * 33.0
+a.mat * 2 * 39.0
+[a.mat, a.luk].max * 2 * 12.0 - b.mdf
+[a.mat, a.luk].max * 2 * 1.5 - b.mdf
+[a.mat, a.luk].max * 2 * 12.0
+[a.mat, a.luk].max * 2 * 15.0 - b.mdf
+[a.mat, a.luk].max * 2 * 15.0 - b.mdf
+[a.mat, a.luk].max * 2 * 15.0 - b.mdf
+[a.mat, a.luk].max * 2 * 19.0
+[a.mat, a.luk].max * 2 * 19.0
+[a.mat, a.luk].max * 2 * 28.0
+[a.mat, a.luk].max * 2 * 28.0 - b.mdf
+[a.mat, a.luk].max * 2 * 28.0 - b.mdf
+[a.mat, a.luk].max * 2 * 2.4
+(a.mat + a.luk) * 1.2 * 9.0 - b.def
+(a.mat + a.luk) * 1.2 * 12.0 - b.def
+[a.mat, a.luk].max * 2 * 23.0 - b.def
+a.mat * 2 * 3.0 - b.mdf
+a.mat * 2 * 12.0 - b.mdf
+[a.mat, a.luk].max * 2 * 23.0 - b.mdf
+a.luk * 2 * 9.0
+a.luk * 2 * 12.0
+[a.mat, a.luk].max * 2 * 23.0
+[a.mat, a.luk].max * 2 * 12.0 - b.mdf
+a.luk * 2 * 19.0
+[a.luk, a.mdf].max * 2 * 19.0 - b.mdf
+[a.luk, a.mdf].max * 2 * 28.0 - b.mdf
+[a.luk, a.mdf].max * 2 * 23.0 - b.mdf
+[a.luk, a.mdf].max * 2 * 5.8 - b.mdf
+[a.luk, a.mdf].max * 2 * 23.0 - b.mdf
+[a.luk, a.mdf].max * 2 * 28.0 - b.mdf
+[a.luk, a.mdf].max * 2 * 28.0
+[a.luk, a.mdf].max * 2 * 28.0 + 30000000
+[a.luk, a.mdf].max * 2 * 33.0
+[a.luk, a.mdf].max * 2 * 33.0 - b.mdf
+[a.luk, a.mdf].max * 2 * 6.4 - b.mdf
+[a.luk, a.mdf].max * 2 * 39.0 - b.mdf
+[a.luk, a.mdf].max * 2 * 25.5
+[a.luk, a.mdf].max * 2 * 4.4
+[a.luk, a.mdf].max * 2 * 48.0
+[a.luk, a.mdf].max * 2 * 48.0
+[a.luk, a.mdf].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.luk, a.mdf].max * 2 * 23.0 - (b.def + b.mdf) / 2
+[a.luk, a.mdf].max * 2 * 23.0 - (b.def + b.mdf) / 2
+b.mhp
+a.hp * 1500.0
+b.mhp
+b.mhp
+[a.atk, a.mat].max * 2 * 33.0
+[a.atk, a.mat].max * 2 * 11.0
+[a.atk, a.mat].max * 2 * 6.5
+[a.atk, a.mat].max * 2 * 4.9
+[a.atk, a.mat].max * 2 * 48.0
+[a.atk, a.agi, a.luk].max * 2 * 9.0
+[a.atk, a.agi, a.luk].max * 2 * 19.0
+[a.mat, a.luk].max * 2 * 9.0 - b.mdf
+[a.mat, a.luk].max * 2 * 9.0 - b.mdf
+[a.mat, a.luk].max * 2 * 9.0 - b.mdf
+[a.mat, a.luk].max * 2 * 12.0 - b.mdf
+[a.mat, a.luk].max * 2 * 12.0 - b.mdf
+[a.mat, a.luk].max * 2 * 12.0
+[a.mat, a.luk].max * 2 * 15.0
+[a.mat, a.luk].max * 2 * 15.0 - b.mdf
+[a.mat, a.luk].max * 2 * 19.0 - b.mdf
+[a.mat, a.luk].max * 2 * 23.0 - b.mdf
+[a.mat, a.luk].max * 2 * 23.0 - b.mdf
+a.mdf * 3.0
+[a.atk, a.luk].max * 2 * 9.0 - b.mdf
+[a.atk, a.luk].max * 2 * 9.0 - b.mdf
+[a.atk, a.luk].max * 2 * 12.0 - b.mdf
+[a.atk, a.luk].max * 2 * 12.0 - b.mdf
+[a.atk, a.luk].max * 2 * 2.0 - b.mdf
+[a.atk, a.luk].max * 2 * 19.0 - b.mdf
+[a.atk, a.luk].max * 2 * 5.8 - b.mdf
+[a.atk, a.luk].max * 2 * 23.0 - b.mdf
+[a.atk, a.luk].max * 2 * 12.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 19.0 - (b.def + b.mdf) / 2
+[a.atk, a.agi, a.luk].max * 2 * 1.5 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 9.0 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 1.5 - b.def
+[a.atk, a.agi, a.luk].max * 2 * 2.1 - b.def
+[a.mat, a.luk].max * 2 * 19.0 - b.mdf
+[a.atk, a.agi, a.luk].max * 2 * 3.9 - b.def
+v[108] * 300000
+v[108] * 100000000
+v[108] * 500000
+v[108] * 200000000
+15000
+b.mhp
+1000
+b.mmp
+b.mhp
+b.mhp
+100000
+b.mhp
+2500
+b.mmp
+a.luk * 2 * 10.0
+a.luk * 2 * 3.0
+a.luk * 2 * 6.0 - b.mdf
+a.luk * 2 * 1.4 - b.def
+a.luk * 2 * 8.0
+a.luk * 2 * 2.2
+a.luk * 2 * 12.7 - b.mdf
+a.luk * 2 * 12.7 - b.mdf
+a.luk * 2 * 12.7
+b.mhp
+a.luk * 3.0
+a.luk * 2 * 4.7 - b.mdf
+a.luk * 2 * 4.7 - b.mdf
+a.luk * 2 * 6.0 - b.mdf
+a.luk * 2 * 6.0 - b.mdf
+a.luk * 2 * 6.0 - b.mdf
+a.luk * 2 * 6.0 - b.mdf
+a.luk * 2 * 8.0
+a.luk * 2 * 10.0 - b.mdf
+a.luk * 2 * 12.7
+a.luk * 2 * 12.7 - b.mdf
+a.luk * 2 * 12.7 - b.mdf
+a.luk * 2 * 12.7 - b.mdf
+a.luk * 2 * 15.3 - b.mdf
+a.luk * 3.0
+a.luk * 2 * 9.0 - b.mdf
+a.luk * 2 * 9.0 - b.mdf
+a.luk * 2 * 19.0
+[a.mat, a.luk].max * 2 * 9.0 - b.mdf
+[a.mat, a.luk].max * 2 * 9.0 - b.mdf
+[a.mat, a.luk].max * 2 * 9.0 - b.mdf
+[a.mat, a.luk].max * 2 * 9.0 - b.mdf
+[a.mat, a.luk].max * 2 * 12.0
+[a.mat, a.luk].max * 2 * 19.0 - b.mdf
+[a.mat, a.luk].max * 2 * 19.0 - b.mdf
+[a.mat, a.luk].max * 2 * 23.0
+[a.luk, a.mat].max * 2 * 23.0
+a.mat * 2 * 9.0 - b.mdf
+a.mat * 2 * 9.0 - b.mdf
+a.mat * 2 * 9.0 - b.mdf
+a.mat * 2 * 9.0 - b.mdf
+a.mat * 2 * 12.0 - b.mdf
+a.mat * 2 * 19.0 - b.mdf
+a.mat * 2 * 23.0
+b.mhp
+a.luk * 2 * 9.0
+a.luk * 2 * 9.0
+a.luk * 2 * 12.0
+a.luk * 2 * 12.0
+a.luk * 2 * 2.6
+a.luk * 2 * 33.0
+a.luk * 2 * 6.0 - b.mdf
+a.luk * 2 * 6.0 - b.mdf
+a.luk * 2 * 6.0 - b.mdf
+a.luk * 2 * 8.0
+b.mhp
+a.luk * 2 * 12.7 - b.mdf
+(a.atk + a.luk) * 1.2 * 4.0 - b.def
+(a.atk + a.luk) * 1.2 * 4.8 - b.def
+(a.atk + a.luk) * 1.2 * 28.0 - b.mdf
+a.luk * 2 * 12.0 - (b.def + b.mdf) / 2
+a.luk * 1.5
+b.mhp
+a.luk * 3.0
+a.luk * 2 * 12.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 19.0
+a.luk * 2 * 3.2
+a.luk * 2 * 23.0
+a.luk * 2 * 7.0 - b.def
+a.luk * 2 * 9.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 12.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 1.5 - (b.def + b.mdf) / 2
+b.mhp
+a.atk * 2 * 15.0 - b.def
+a.mat * 2 * 12.0 - b.mdf
+a.atk * 2 * 28.0 - b.def
+a.atk * 2 * 2.8 - b.def
+a.mdf * 3.0
+a.luk * 2 * 3.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 9.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 5.8 - (b.def + b.mdf) / 2
+a.luk * 2 * 23.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 15.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 28.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 23.0
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 19.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 19.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 19.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 9.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 19.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 19.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 19.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 19.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 19.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 19.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 33.0 - b.mdf
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 2.0 - b.def
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 2.4 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 2.0 - (b.def + b.mdf) / 2
+[a.atk, a.def, a.mat, a.mdf, a.agi, a.luk].max * 2 * 2.4 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 12.0 - b.mdf
+[a.mat, a.luk].max * 2 * 12.0 - b.mdf
+[a.mat, a.luk].max * 2 * 23.0 - b.mdf
+[a.mat, a.luk].max * 2 * 23.0 - b.mdf
+[a.atk, a.luk].max * 2 * 3.0 - b.def
+[a.mat, a.luk].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 19.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 12.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 9.0 - b.def
+[a.atk, a.luk].max * 2 * 19.0 - b.def
+a.luk * 2 * 23.0 - (b.def + b.mdf) / 2
+a.luk * 2 * 23.0 - (b.def + b.mdf) / 2
+a.hp * 300.0
+a.hp * 3000.0
+a.mdf * 3.0
+(a.atk + a.agi) * 1.2 * 19.0 - b.def
+a.atk * 2 * 7.0 - b.def
+a.atk * 2 * 2.0 - b.def
+a.atk * 2 * 3.9 - b.def
+a.atk * 2 * 3.0 - b.def
+a.atk * 2 * 3.2 - b.def
+a.atk * 2 * 23.0 - b.def
+a.atk * 2 * 9.0 - b.def
+a.atk * 2 * 23.0 - b.def
+[a.atk, a.luk].max * 2 * 19.0 - b.def
+[a.atk, a.def].max * 2 * 9.0 - b.def
+[a.atk, a.def].max * 2 * 19.0 - b.def
+[a.atk, a.luk].max * 2 * 3.5 - b.def
+[a.atk, a.luk].max * 2 * 7.0 - b.def
+[a.atk, a.luk].max * 2 * 9.0 - b.def
+[a.atk, a.luk].max * 2 * 19.0 - b.def
+[a.atk, a.luk].max * 2 * 1.9 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 2.6 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 2.4 - b.def
+[a.mat, a.luk].max * 2 * 19.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 4.9 - b.def
+[a.luk, a.agi].max * 2 * 28.0 - b.def
+[a.atk, a.def].max * 2 * 9.0 - b.def
+[a.atk, a.def].max * 2 * 23.0 - b.def
+[a.atk, a.def].max * 2 * 12.0 - b.def
+[a.atk, a.def].max * 2 * 19.0 - b.def
+[a.luk, a.def].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.luk, a.def].max * 2 * 2.9 - b.def
+[a.atk, a.luk].max * 2 * 9.0 - b.def
+[a.atk, a.luk].max * 2 * 19.0 - b.def
+[a.atk, a.luk].max * 2 * 28.0 - b.def
+[a.mat, a.luk].max * 2 * 19.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 3.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 19.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 5.8 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 7.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 4.8 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 28.0 - b.def
+a.atk * 2 * 4.1 - b.def
+a.atk * 2 * 4.7 - b.def
+[a.mat, a.luk].max * 2 * 23.0 - b.mdf
+[a.atk, a.mat].max * 2 * 9.0 - b.mdf
+[a.mat, a.luk].max * 2 * 23.0 - b.mdf
+[a.mat, a.luk].max * 2 * 9.0 - b.mdf
+[a.mat, a.luk].max * 2 * 9.0 - (b.def + b.mdf) / 2
+[a.mat, a.luk].max * 2 * 19.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 4.1 - b.def
+[a.atk, a.luk].max * 2 * 9.8
+[a.atk, a.luk].max * 2 * 9.8
+[a.mat, a.luk].max * 2 * 9.0
+[a.mat, a.luk].max * 2 * 19.0
+a.luk * 2 * 23.0 - b.def
+a.luk * 2 * 2.4 - b.def
+a.luk * 2 * 5.0 - b.def
+a.luk * 2 * 2.9 - b.def
+a.luk * 2 * 3.3 - b.def
+a.luk * 2 * 7.0 - b.def
+a.luk * 2 * 23.0 - b.def
+a.agi * 2 * 1.2 - b.def
+a.agi * 2 * 1.8 - b.def
+a.luk * 2 * 3.3 - b.def
+a.luk * 2 * 7.0 - b.def
+a.luk * 2 * 6.0 - b.def
+a.luk * 2 * 12.0 - b.def
+a.luk * 2 * 19.0 - b.def
+a.luk * 2 * 2.9 - b.def
+a.luk * 2 * 5.0 - b.def
+a.luk * 2 * 9.0 - b.def
+a.luk * 2 * 15.0 - b.def
+[a.atk, a.luk].max * 2 * 2.9 - b.def
+[a.atk, a.luk].max * 2 * 5.0 - b.def
+[a.atk, a.luk].max * 2 * 9.0 - b.def
+[a.atk, a.luk].max * 2 * 23.0 - b.def
+[a.mat, a.luk].max * 2 * 19.0 - b.mdf
+a.luk * 2 * 5.8 - b.mdf
+a.luk * 2 * 19.0 - b.mdf
+a.luk * 2 * 4.8 - b.mdf
+[a.mat, a.luk].max * 2 * 19.0
+[a.mat, a.luk].max * 2 * 5.8 - b.mdf
+a.luk * 2 * 28.0
+[a.mat, a.agi].max * 2 * 15.0 - b.mdf
+[a.mat, a.agi].max * 2 * 23.0 - b.mdf
+[a.mat, a.def].max * 2 * 12.0 - b.mdf
+[a.mat, a.def].max * 2 * 23.0
+[a.mat, a.mdf].max * 2 * 9.0 - b.mdf
+[a.mat, a.mdf].max * 2 * 19.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 23.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 23.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 9.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 9.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 9.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 19.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 9.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 19.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 19.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 23.0
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 23.0 - b.mdf
+[a.atk, a.mat, a.luk].max * 3 * a.hp / a.mhp * 23.0 - b.mdf
+[a.mdf, a.luk].max * 2 * 2.9
+[a.mdf, a.luk].max * 2 * 3.3
+[a.mdf, a.luk].max * 2 * 7.0
+[a.mdf, a.luk].max * 2 * 2.9
+[a.mdf, a.luk].max * 2 * 5.0
+[a.mdf, a.luk].max * 2 * 2.9
+[a.mdf, a.luk].max * 2 * 5.0
+[a.mdf, a.luk].max * 2 * 2.9
+[a.mdf, a.luk].max * 2 * 5.0
+[a.mdf, a.luk].max * 2 * 9.0
+[a.mdf, a.luk].max * 2 * 9.0
+[a.mdf, a.luk].max * 2 * 3.3
+[a.mdf, a.luk].max * 2 * 0.9
+[a.mdf, a.luk].max * 2 * 5.0
+[a.mdf, a.luk].max * 2 * 3.0
+[a.mdf, a.luk].max * 2 * 15.0
+[a.mdf, a.luk].max * 2 * 19.0
+[a.mdf, a.luk].max * 2 * 23.0
+[a.mdf, a.luk].max * 2 * 3.9
+[a.mdf, a.luk].max * 2.0
+a.atk * 2 * 3.3 - b.def
+a.atk * 2 * 3.3 - b.def
+a.atk * 2 * 9.0 - b.def
+a.atk * 2 * 12.0 - b.def
+a.atk * 2 * 23.0
+a.atk * 2 * 2.3 - b.def
+a.atk * 2 * 4.1 - b.def
+a.atk * 2 * 3.9
+a.atk * 2 * 2.9 - b.def
+a.atk * 2 * 5.0 - b.def
+a.atk * 2 * 9.0 - b.def
+a.atk * 2 * 5.0 - b.def
+a.atk * 2 * 9.0 - b.def
+a.atk * 2 * 19.0
+a.atk * 2 * 19.0
+a.luk * 2 * 3.3 - b.def
+a.luk * 2 * 7.0 - b.def
+a.atk * 2 * 9.0 - b.def
+a.atk * 2 * 23.0 - b.def
+[a.atk, a.luk].max * 2 * 3.3 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 5.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 2.9 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 12.0 - (b.def + b.mdf) / 2
+[a.atk, a.luk].max * 2 * 23.0
+[a.atk, a.mat, a.luk].max * 2 * 28.0
+[a.atk, a.mat, a.luk].max * 2 * 33.0
+[a.atk, a.mat, a.luk].max * 2 * 4.4
+[a.atk, a.mat, a.luk].max * 2 * 48.0
+[a.atk, a.mat, a.luk].max * 2 * 48.0
+[a.atk, a.mat, a.luk].max * 2 * 72.0
+[a.atk, a.mat, a.luk].max * 2 * 33.0
+[a.atk, a.mat].max * 2 * 8.0
+[a.atk, a.mat, a.luk].max * 2 * 48.0
+b.mhp
+[a.mat, a.agi].max * 2 * 9.0 - b.mdf
+[a.mat, a.mdf].max * 2 * 9.0 - b.mdf
+a.luk * 2 * 9.0
+a.luk * 2 * 12.0
+[a.mat, a.agi].max * 2 * 6.0 - b.mdf
+[a.mat, a.def].max * 2 * 6.0 - b.mdf
+[a.mat, a.mdf].max * 2 * 6.0 - b.mdf
+[a.mat, a.atk].max * 2 * 6.0 - b.mdf
+[a.mat, a.agi].max * 2 * 6.0 - b.mdf
+[a.mat, a.def].max * 2 * 6.0 - b.mdf
+[a.mat, a.mdf].max * 2 * 6.0 - b.mdf
+[a.mat, a.atk].max * 2 * 6.0 - b.mdf
+(a.atk + a.mat + a.def + a.mdf) / 4 * 23.0 - b.mdf
+a.luk * 2 * 12.0 - b.mdf
+b.mhp * 1.0
+b.mhp
+[a.luk, a.mdf].max * 2 * 4.2
+[a.luk, a.atk, a.mat].max * 2 * 4.2
+[a.atk, a.luk].max * 2 * 5.8
+[a.mat, a.luk].max * 2 * 19.0

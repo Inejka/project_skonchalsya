@@ -15,7 +15,7 @@ class Engine:
     def __init__(self):
         print("Engine initialized")
         self.embedding_function = SentenceTransformerEmbeddings(
-            model_name="intfloat/multilingual-e5-large"
+            model_name="intfloat/multilingual-e5-large", model_kwargs = {'device': 'cpu'}
         )
         self.vectorstore = PGVector(
             embeddings=self.embedding_function,
